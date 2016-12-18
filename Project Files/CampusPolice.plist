@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WVU</key>
+	<array>
+		<string>link_police.png</string>
+		<string>link_call_police.png</string>
+		<string>link_report_a_threat.png</string>
+		<string>link_campus_safety_tips.png</string>
+		<string>link_important_wvu_telephone_numbers.png</string>
+		<string>link_wvu_alert.png</string>
+		<string>link_emergency_info.png</string>
+	</array>
+</dict>
+</plist>

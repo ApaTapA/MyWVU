@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WVU</key>
+	<array>
+		<string>link_account_balance.png</string>
+		<string>link_arnolds_diner.png</string>
+		<string>link_boreman_bistro.png</string>
+		<string>link_cafe_evansdale.png</string>
+		<string>link_hatfields.png</string>
+		<string>link_summit_cafe.png</string>
+		<string>link_terrace_room.png</string>
+		<string>link_mountainlair_food_court.png</string>
+		<string>link_bits_and_bytes.png</string>
+		<string>link_brew_n_gold_cafe.png</string>
+		<string>link_coffee_shops.png</string>
+		<string>link_the_greenhouse.png</string>
+		<string>link_lyons_den.png</string>
+		<string>link_summit_grab_n_go.png</string>
+		<string>link_evansdale_crossing.png</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WVU</key>
+	<array>
+		<string>link_student_tickets.png</string>
+		<string>link_wvu_sports.png</string>
+		<string>link_schedules.png</string>
+		<string>link_rec_center.png</string>
+		<string>link_rec_center_hours.png</string>
+		<string>link_climbing_wall.png</string>
+		<string>link_club_sports.png</string>
+		<string>link_intramurals.png</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WVU</key>
+	<array>
+		<string>link_campus_web_site.png</string>
+		<string>link_campus_map.png</string>
+		<string>link_clubs_and_organizations.png</string>
+		<string>link_it_help.png</string>
+		<string>link_it_services.png</string>
+		<string>link_bookstore.png</string>
+		<string>link_on_campus_housing.png</string>
+		<string>link_off_campus_housing.png</string>
+		<string>link_comcast_tv_channel_list.png</string>
+		<string>link_college_cable_tv_channel_list.png</string>
+	</array>
+</dict>
+</plist>

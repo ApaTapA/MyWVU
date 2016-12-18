@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WVU</key>
+	<array>
+		<string>link_restaurants.png</string>
+		<string>link_bars_and_nightclubs.png</string>
+		<string>link_bar_specials.png</string>
+		<string>link_adult_recreation.png</string>
+		<string>link_wvup_all_night.png</string>
+		<string>link_morgantown_mall.png</string>
+		<string>link_regal_cinemas_morgantown_twelve.png</string>
+		<string>link_carmike_cinemas.png</string>
+		<string>link_mt_pockets_theatre_company.png</string>
+		<string>link_morgantown_diy_outdoors.png</string>
+		<string>link_sunset_beach_marina.png</string>
+		<string>link_suburban_lanes_bowling_center.png</string>
+	</array>
+</dict>
+</plist>

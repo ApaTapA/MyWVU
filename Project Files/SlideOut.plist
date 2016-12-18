@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>categoryLabel</key>
+		<string>Academics</string>
+		<key>categoryIcon</key>
+		<string>academic_icon.png</string>
+	</dict>
+	<dict>
+		<key>categoryLabel</key>
+		<string>Campus Dining</string>
+		<key>categoryIcon</key>
+		<string>campus_dining_icon.png</string>
+	</dict>
+	<dict>
+		<key>categoryLabel</key>
+		<string>Campus Information</string>
+		<key>categoryIcon</key>
+		<string>campus_information_icon.png</string>
+	</dict>
+	<dict>
+		<key>categoryLabel</key>
+		<string>Campus News &amp; Events</string>
+		<key>categoryIcon</key>
+		<string>campus_police_icon.png</string>
+	</dict>
+	<dict>
+		<key>categoryLabel</key>
+		<string>Campus Police</string>
+		<key>categoryIcon</key>
+		<string>campus_police_icon.png</string>
+	</dict>
+	<dict>
+		<key>categoryLabel</key>
+		<string>Greeklife</string>
+		<key>categoryIcon</key>
+		<string>greek_life_icon.png</string>
+	</dict>
+	<dict>
+		<key>categoryLabel</key>
+		<string>Nightlife</string>
+		<key>categoryIcon</key>
+		<string>nightlife_icon.png</string>
+	</dict>
+	<dict>
+		<key>categoryLabel</key>
+		<string>Parking &amp; Transportation</string>
+		<key>categoryIcon</key>
+		<string>parking_and_transportation_icon.png</string>
+	</dict>
+	<dict>
+		<key>categoryLabel</key>
+		<string>Sports &amp; Fitness</string>
+		<key>categoryIcon</key>
+		<string>sports_and_fitness_icon.png</string>
+	</dict>
+	<dict>
+		<key>categoryLabel</key>
+		<string>Student Health</string>
+		<key>categoryIcon</key>
+		<string>student_health_icon.png</string>
+	</dict>
+	<dict/>
+	<dict>
+		<key>categoryLabel</key>
+		<string>Remove Ads</string>
+		<key>categoryIcon</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>categoryLabel</key>
+		<string>Restore Purchase</string>
+		<key>categoryIcon</key>
+		<string></string>
+	</dict>
+	<dict/>
+	<dict>
+		<key>categoryLabel</key>
+		<string>Feedback</string>
+		<key>categoryIcon</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>categoryLabel</key>
+		<string>Help</string>
+		<key>categoryIcon</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>categoryLabel</key>
+		<string>About Us</string>
+		<key>categoryIcon</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

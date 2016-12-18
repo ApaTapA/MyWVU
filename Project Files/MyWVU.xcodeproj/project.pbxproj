@@ -1,0 +1,1872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A806EC861D62899B0001452F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A806EC851D62899B0001452F /* SWRevealViewController.m */; };
+		A806EC891D628A2C0001452F /* SlideOutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A806EC881D628A2C0001452F /* SlideOutVC.m */; };
+		A806EC8D1D628B280001452F /* AcademicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A806EC8C1D628B280001452F /* AcademicVC.m */; };
+		A806EC961D628FB60001452F /* SlideCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A806EC941D628FB60001452F /* SlideCustomCell.m */; };
+		A806EC971D628FB60001452F /* SlideCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A806EC951D628FB60001452F /* SlideCustomCell.xib */; };
+		A806EC9A1D6292880001452F /* SlideOut.plist in Resources */ = {isa = PBXBuildFile; fileRef = A806EC991D6292880001452F /* SlideOut.plist */; };
+		A806EC9E1D62C5390001452F /* ic_menu_white_36pt_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A806EC9B1D62C5390001452F /* ic_menu_white_36pt_2x.png */; };
+		A806EC9F1D62C5390001452F /* ic_menu_white_36pt_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A806EC9C1D62C5390001452F /* ic_menu_white_36pt_3x.png */; };
+		A806ECA01D62C5390001452F /* ic_menu_white_36pt.png in Resources */ = {isa = PBXBuildFile; fileRef = A806EC9D1D62C5390001452F /* ic_menu_white_36pt.png */; };
+		A806ECA71D62C8030001452F /* DiningVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A806ECA61D62C8030001452F /* DiningVC.m */; };
+		A806ECAB1D62C8230001452F /* InformationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A806ECAA1D62C8230001452F /* InformationVC.m */; };
+		A81642AF1C3CBB2D004D19B8 /* StartApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A81642AD1C3CBB2D004D19B8 /* StartApp.bundle */; };
+		A81642B01C3CBB2D004D19B8 /* StartApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A81642AE1C3CBB2D004D19B8 /* StartApp.framework */; };
+		A81642B21C3CD68A004D19B8 /* FirstTimeMessage.png in Resources */ = {isa = PBXBuildFile; fileRef = A81642B11C3CD68A004D19B8 /* FirstTimeMessage.png */; };
+		A82115671DE3944300FBF580 /* NewsEventsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A82115661DE3944300FBF580 /* NewsEventsVC.m */; };
+		A821156A1DE3946600FBF580 /* CampusPoliceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A82115691DE3946600FBF580 /* CampusPoliceVC.m */; };
+		A821156D1DE3947400FBF580 /* GreeklifeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A821156C1DE3947400FBF580 /* GreeklifeVC.m */; };
+		A82115701DE3948100FBF580 /* NightlifeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A821156F1DE3948100FBF580 /* NightlifeVC.m */; };
+		A82115731DE3949100FBF580 /* ParkingTransportationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A82115721DE3949100FBF580 /* ParkingTransportationVC.m */; };
+		A82115761DE3949E00FBF580 /* SportsFitnessVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A82115751DE3949E00FBF580 /* SportsFitnessVC.m */; };
+		A82115791DE394A900FBF580 /* StudentHealthVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A82115781DE394A900FBF580 /* StudentHealthVC.m */; };
+		A82115901DE4A6D900FBF580 /* link_account_balance.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115811DE4A6D900FBF580 /* link_account_balance.png */; };
+		A82115911DE4A6D900FBF580 /* link_arnolds_diner.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115821DE4A6D900FBF580 /* link_arnolds_diner.png */; };
+		A82115921DE4A6D900FBF580 /* link_boreman_bistro.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115831DE4A6D900FBF580 /* link_boreman_bistro.png */; };
+		A82115931DE4A6D900FBF580 /* link_cafe_evansdale.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115841DE4A6D900FBF580 /* link_cafe_evansdale.png */; };
+		A82115941DE4A6D900FBF580 /* link_hatfields.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115851DE4A6D900FBF580 /* link_hatfields.png */; };
+		A82115951DE4A6D900FBF580 /* link_summit_cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115861DE4A6D900FBF580 /* link_summit_cafe.png */; };
+		A82115961DE4A6D900FBF580 /* link_terrace_room.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115871DE4A6D900FBF580 /* link_terrace_room.png */; };
+		A82115971DE4A6D900FBF580 /* link_mountainlair_food_court.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115881DE4A6D900FBF580 /* link_mountainlair_food_court.png */; };
+		A82115981DE4A6D900FBF580 /* link_bits_and_bytes.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115891DE4A6D900FBF580 /* link_bits_and_bytes.png */; };
+		A82115991DE4A6D900FBF580 /* link_brew_n_gold_cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = A821158A1DE4A6D900FBF580 /* link_brew_n_gold_cafe.png */; };
+		A821159A1DE4A6D900FBF580 /* link_coffee_shops.png in Resources */ = {isa = PBXBuildFile; fileRef = A821158B1DE4A6D900FBF580 /* link_coffee_shops.png */; };
+		A821159B1DE4A6D900FBF580 /* link_the_greenhouse.png in Resources */ = {isa = PBXBuildFile; fileRef = A821158C1DE4A6D900FBF580 /* link_the_greenhouse.png */; };
+		A821159C1DE4A6D900FBF580 /* link_lyons_den.png in Resources */ = {isa = PBXBuildFile; fileRef = A821158D1DE4A6D900FBF580 /* link_lyons_den.png */; };
+		A821159D1DE4A6D900FBF580 /* link_summit_grab_n_go.png in Resources */ = {isa = PBXBuildFile; fileRef = A821158E1DE4A6D900FBF580 /* link_summit_grab_n_go.png */; };
+		A821159E1DE4A6D900FBF580 /* link_evansdale_crossing.png in Resources */ = {isa = PBXBuildFile; fileRef = A821158F1DE4A6D900FBF580 /* link_evansdale_crossing.png */; };
+		A82115B71DE4A70300FBF580 /* link_ecampus.png in Resources */ = {isa = PBXBuildFile; fileRef = A821159F1DE4A70300FBF580 /* link_ecampus.png */; };
+		A82115B81DE4A70300FBF580 /* link_wvu_gmail.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115A01DE4A70300FBF580 /* link_wvu_gmail.png */; };
+		A82115B91DE4A70300FBF580 /* link_mix.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115A11DE4A70300FBF580 /* link_mix.png */; };
+		A82115BA1DE4A70300FBF580 /* link_star.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115A21DE4A70300FBF580 /* link_star.png */; };
+		A82115BB1DE4A70300FBF580 /* link_sole.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115A31DE4A70300FBF580 /* link_sole.png */; };
+		A82115BC1DE4A70300FBF580 /* link_my_mountaineer_card.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115A41DE4A70300FBF580 /* link_my_mountaineer_card.png */; };
+		A82115BD1DE4A70300FBF580 /* link_mountie_bounty.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115A51DE4A70300FBF580 /* link_mountie_bounty.png */; };
+		A82115BE1DE4A70300FBF580 /* link_schedule_of_courses.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115A61DE4A70300FBF580 /* link_schedule_of_courses.png */; };
+		A82115BF1DE4A70300FBF580 /* link_wvu.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115A71DE4A70300FBF580 /* link_wvu.png */; };
+		A82115C01DE4A70300FBF580 /* link_online_and_extended_campus.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115A81DE4A70300FBF580 /* link_online_and_extended_campus.png */; };
+		A82115C11DE4A70300FBF580 /* link_academic_calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115A91DE4A70300FBF580 /* link_academic_calendar.png */; };
+		A82115C21DE4A70300FBF580 /* link_computer_lab_hours.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115AA1DE4A70300FBF580 /* link_computer_lab_hours.png */; };
+		A82115C31DE4A70300FBF580 /* link_downtown_library_hours.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115AB1DE4A70300FBF580 /* link_downtown_library_hours.png */; };
+		A82115C41DE4A70300FBF580 /* link_evansdale_library_hours.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115AC1DE4A70300FBF580 /* link_evansdale_library_hours.png */; };
+		A82115C51DE4A70300FBF580 /* link_health_sciences_library_hours.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115AD1DE4A70300FBF580 /* link_health_sciences_library_hours.png */; };
+		A82115C61DE4A70300FBF580 /* link_law_library_hours.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115AE1DE4A70300FBF580 /* link_law_library_hours.png */; };
+		A82115C71DE4A70300FBF580 /* link_library_databases.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115AF1DE4A70300FBF580 /* link_library_databases.png */; };
+		A82115C81DE4A70300FBF580 /* link_my_library_account.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115B01DE4A70300FBF580 /* link_my_library_account.png */; };
+		A82115C91DE4A70300FBF580 /* link_library_computer_availability.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115B11DE4A70300FBF580 /* link_library_computer_availability.png */; };
+		A82115CA1DE4A70300FBF580 /* link_myprinting.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115B21DE4A70300FBF580 /* link_myprinting.png */; };
+		A82115CB1DE4A70300FBF580 /* link_academic_advising.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115B31DE4A70300FBF580 /* link_academic_advising.png */; };
+		A82115CC1DE4A70300FBF580 /* link_career_services.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115B41DE4A70300FBF580 /* link_career_services.png */; };
+		A82115CD1DE4A70300FBF580 /* link_directory.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115B51DE4A70300FBF580 /* link_directory.png */; };
+		A82115CE1DE4A70300FBF580 /* link_academic_resource_centers_and_tutoring.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115B61DE4A70300FBF580 /* link_academic_resource_centers_and_tutoring.png */; };
+		A82115D91DE4A73B00FBF580 /* link_campus_web_site.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115CF1DE4A73B00FBF580 /* link_campus_web_site.png */; };
+		A82115DA1DE4A73B00FBF580 /* link_campus_map.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115D01DE4A73B00FBF580 /* link_campus_map.png */; };
+		A82115DB1DE4A73B00FBF580 /* link_clubs_and_organizations.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115D11DE4A73B00FBF580 /* link_clubs_and_organizations.png */; };
+		A82115DC1DE4A73B00FBF580 /* link_it_help.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115D21DE4A73B00FBF580 /* link_it_help.png */; };
+		A82115DD1DE4A73B00FBF580 /* link_it_services.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115D31DE4A73B00FBF580 /* link_it_services.png */; };
+		A82115DE1DE4A73B00FBF580 /* link_bookstore.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115D41DE4A73B00FBF580 /* link_bookstore.png */; };
+		A82115DF1DE4A73B00FBF580 /* link_on_campus_housing.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115D51DE4A73B00FBF580 /* link_on_campus_housing.png */; };
+		A82115E01DE4A73B00FBF580 /* link_off_campus_housing.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115D61DE4A73B00FBF580 /* link_off_campus_housing.png */; };
+		A82115E11DE4A73B00FBF580 /* link_comcast_tv_channel_list.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115D71DE4A73B00FBF580 /* link_comcast_tv_channel_list.png */; };
+		A82115E21DE4A73B00FBF580 /* link_college_cable_tv_channel_list.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115D81DE4A73B00FBF580 /* link_college_cable_tv_channel_list.png */; };
+		A82115E91DE4A75C00FBF580 /* link_calendar_of_events.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115E31DE4A75C00FBF580 /* link_calendar_of_events.png */; };
+		A82115EA1DE4A75C00FBF580 /* link_arts_and_entertainment.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115E41DE4A75C00FBF580 /* link_arts_and_entertainment.png */; };
+		A82115EB1DE4A75C00FBF580 /* link_wvu_today.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115E51DE4A75C00FBF580 /* link_wvu_today.png */; };
+		A82115EC1DE4A75C00FBF580 /* link_wvu_news.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115E61DE4A75C00FBF580 /* link_wvu_news.png */; };
+		A82115ED1DE4A75C00FBF580 /* link_the_daily_athenaeum.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115E71DE4A75C00FBF580 /* link_the_daily_athenaeum.png */; };
+		A82115EE1DE4A75C00FBF580 /* link_campus_weather.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115E81DE4A75C00FBF580 /* link_campus_weather.png */; };
+		A82115F61DE4A77100FBF580 /* link_police.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115EF1DE4A77100FBF580 /* link_police.png */; };
+		A82115F71DE4A77100FBF580 /* link_call_police.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115F01DE4A77100FBF580 /* link_call_police.png */; };
+		A82115F81DE4A77100FBF580 /* link_report_a_threat.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115F11DE4A77100FBF580 /* link_report_a_threat.png */; };
+		A82115F91DE4A77100FBF580 /* link_campus_safety_tips.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115F21DE4A77100FBF580 /* link_campus_safety_tips.png */; };
+		A82115FA1DE4A77100FBF580 /* link_important_wvu_telephone_numbers.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115F31DE4A77100FBF580 /* link_important_wvu_telephone_numbers.png */; };
+		A82115FB1DE4A77100FBF580 /* link_wvu_alert.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115F41DE4A77100FBF580 /* link_wvu_alert.png */; };
+		A82115FC1DE4A77100FBF580 /* link_emergency_info.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115F51DE4A77100FBF580 /* link_emergency_info.png */; };
+		A821161A1DE4A79400FBF580 /* link_alpha_epsilon_pi.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115FD1DE4A79400FBF580 /* link_alpha_epsilon_pi.png */; };
+		A821161B1DE4A79400FBF580 /* link_alpha_gamma_rho.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115FE1DE4A79400FBF580 /* link_alpha_gamma_rho.png */; };
+		A821161C1DE4A79400FBF580 /* link_alpha_phi_alpha.png in Resources */ = {isa = PBXBuildFile; fileRef = A82115FF1DE4A79400FBF580 /* link_alpha_phi_alpha.png */; };
+		A821161D1DE4A79400FBF580 /* link_alpha_sigma_phi.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116001DE4A79400FBF580 /* link_alpha_sigma_phi.png */; };
+		A821161E1DE4A79400FBF580 /* link_delta_tau_delta.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116011DE4A79400FBF580 /* link_delta_tau_delta.png */; };
+		A821161F1DE4A79400FBF580 /* link_kappa_alpha_order.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116021DE4A79400FBF580 /* link_kappa_alpha_order.png */; };
+		A82116201DE4A79400FBF580 /* link_kappa_alpha_psi.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116031DE4A79400FBF580 /* link_kappa_alpha_psi.png */; };
+		A82116211DE4A79400FBF580 /* link_omega_psi_phi.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116041DE4A79400FBF580 /* link_omega_psi_phi.png */; };
+		A82116221DE4A79400FBF580 /* link_phi_delta_theta.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116051DE4A79400FBF580 /* link_phi_delta_theta.png */; };
+		A82116231DE4A79400FBF580 /* link_phi_gamma_delta.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116061DE4A79400FBF580 /* link_phi_gamma_delta.png */; };
+		A82116241DE4A79400FBF580 /* link_phi_sigma_kappa.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116071DE4A79400FBF580 /* link_phi_sigma_kappa.png */; };
+		A82116251DE4A79400FBF580 /* link_pi_kappa_alpha.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116081DE4A79400FBF580 /* link_pi_kappa_alpha.png */; };
+		A82116261DE4A79400FBF580 /* link_sigma_alpha_epsilon.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116091DE4A79400FBF580 /* link_sigma_alpha_epsilon.png */; };
+		A82116271DE4A79400FBF580 /* link_sigma_alpha_mu.png in Resources */ = {isa = PBXBuildFile; fileRef = A821160A1DE4A79400FBF580 /* link_sigma_alpha_mu.png */; };
+		A82116281DE4A79400FBF580 /* link_sigma_chi.png in Resources */ = {isa = PBXBuildFile; fileRef = A821160B1DE4A79400FBF580 /* link_sigma_chi.png */; };
+		A82116291DE4A79400FBF580 /* link_sigma_nu.png in Resources */ = {isa = PBXBuildFile; fileRef = A821160C1DE4A79400FBF580 /* link_sigma_nu.png */; };
+		A821162A1DE4A79400FBF580 /* link_sigma_phi_epsilon.png in Resources */ = {isa = PBXBuildFile; fileRef = A821160D1DE4A79400FBF580 /* link_sigma_phi_epsilon.png */; };
+		A821162B1DE4A79400FBF580 /* link_tau_kappa_epsilon.png in Resources */ = {isa = PBXBuildFile; fileRef = A821160E1DE4A79400FBF580 /* link_tau_kappa_epsilon.png */; };
+		A821162C1DE4A79400FBF580 /* link_theta_chi.png in Resources */ = {isa = PBXBuildFile; fileRef = A821160F1DE4A79400FBF580 /* link_theta_chi.png */; };
+		A821162D1DE4A79400FBF580 /* link_alpha_kappa_alpha.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116101DE4A79400FBF580 /* link_alpha_kappa_alpha.png */; };
+		A821162E1DE4A79400FBF580 /* link_alpha_omicron_pi.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116111DE4A79400FBF580 /* link_alpha_omicron_pi.png */; };
+		A821162F1DE4A79400FBF580 /* link_alpha_phi.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116121DE4A79400FBF580 /* link_alpha_phi.png */; };
+		A82116301DE4A79400FBF580 /* link_alpha_xi_delta.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116131DE4A79400FBF580 /* link_alpha_xi_delta.png */; };
+		A82116311DE4A79400FBF580 /* link_chi_omega.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116141DE4A79400FBF580 /* link_chi_omega.png */; };
+		A82116321DE4A79400FBF580 /* link_delta_gamma.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116151DE4A79400FBF580 /* link_delta_gamma.png */; };
+		A82116331DE4A79400FBF580 /* link_delta_sigma_theta.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116161DE4A79400FBF580 /* link_delta_sigma_theta.png */; };
+		A82116341DE4A79400FBF580 /* link_kappa_kappa_gamma.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116171DE4A79400FBF580 /* link_kappa_kappa_gamma.png */; };
+		A82116351DE4A79400FBF580 /* link_pi_beta_phi.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116181DE4A79400FBF580 /* link_pi_beta_phi.png */; };
+		A82116361DE4A79400FBF580 /* link_sigma_kappa.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116191DE4A79400FBF580 /* link_sigma_kappa.png */; };
+		A82116431DE4A7AA00FBF580 /* link_restaurants.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116371DE4A7AA00FBF580 /* link_restaurants.png */; };
+		A82116441DE4A7AA00FBF580 /* link_bars_and_nightclubs.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116381DE4A7AA00FBF580 /* link_bars_and_nightclubs.png */; };
+		A82116451DE4A7AA00FBF580 /* link_bar_specials.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116391DE4A7AA00FBF580 /* link_bar_specials.png */; };
+		A82116461DE4A7AA00FBF580 /* link_adult_recreation.png in Resources */ = {isa = PBXBuildFile; fileRef = A821163A1DE4A7AA00FBF580 /* link_adult_recreation.png */; };
+		A82116471DE4A7AA00FBF580 /* link_wvup_all_night.png in Resources */ = {isa = PBXBuildFile; fileRef = A821163B1DE4A7AA00FBF580 /* link_wvup_all_night.png */; };
+		A82116481DE4A7AA00FBF580 /* link_morgantown_mall.png in Resources */ = {isa = PBXBuildFile; fileRef = A821163C1DE4A7AA00FBF580 /* link_morgantown_mall.png */; };
+		A82116491DE4A7AA00FBF580 /* link_regal_cinemas_morgantown_twelve.png in Resources */ = {isa = PBXBuildFile; fileRef = A821163D1DE4A7AA00FBF580 /* link_regal_cinemas_morgantown_twelve.png */; };
+		A821164A1DE4A7AA00FBF580 /* link_carmike_cinemas.png in Resources */ = {isa = PBXBuildFile; fileRef = A821163E1DE4A7AA00FBF580 /* link_carmike_cinemas.png */; };
+		A821164B1DE4A7AA00FBF580 /* link_mt_pockets_theatre_company.png in Resources */ = {isa = PBXBuildFile; fileRef = A821163F1DE4A7AA00FBF580 /* link_mt_pockets_theatre_company.png */; };
+		A821164C1DE4A7AA00FBF580 /* link_morgantown_diy_outdoors.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116401DE4A7AA00FBF580 /* link_morgantown_diy_outdoors.png */; };
+		A821164D1DE4A7AA00FBF580 /* link_sunset_beach_marina.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116411DE4A7AA00FBF580 /* link_sunset_beach_marina.png */; };
+		A821164E1DE4A7AA00FBF580 /* link_suburban_lanes_bowling_center.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116421DE4A7AA00FBF580 /* link_suburban_lanes_bowling_center.png */; };
+		A82116741DE4A7CF00FBF580 /* link_mountain_line_transit_authority.png in Resources */ = {isa = PBXBuildFile; fileRef = A821164F1DE4A7CF00FBF580 /* link_mountain_line_transit_authority.png */; };
+		A82116751DE4A7CF00FBF580 /* link_route_list.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116501DE4A7CF00FBF580 /* link_route_list.png */; };
+		A82116761DE4A7CF00FBF580 /* link_bus_tracker.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116511DE4A7CF00FBF580 /* link_bus_tracker.png */; };
+		A82116771DE4A7CF00FBF580 /* link_wvu_campus_services.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116521DE4A7CF00FBF580 /* link_wvu_campus_services.png */; };
+		A82116781DE4A7CF00FBF580 /* link_wvu_football_shuttle_service.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116531DE4A7CF00FBF580 /* link_wvu_football_shuttle_service.png */; };
+		A82116791DE4A7CF00FBF580 /* link_campus_pm.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116541DE4A7CF00FBF580 /* link_campus_pm.png */; };
+		A821167A1DE4A7CF00FBF580 /* link_downtown_pm_mall.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116551DE4A7CF00FBF580 /* link_downtown_pm_mall.png */; };
+		A821167B1DE4A7CF00FBF580 /* link_green_line.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116561DE4A7CF00FBF580 /* link_green_line.png */; };
+		A821167C1DE4A7CF00FBF580 /* link_orange_line.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116571DE4A7CF00FBF580 /* link_orange_line.png */; };
+		A821167D1DE4A7CF00FBF580 /* link_orange_line_tripper_express.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116581DE4A7CF00FBF580 /* link_orange_line_tripper_express.png */; };
+		A821167E1DE4A7CF00FBF580 /* link_gold_line.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116591DE4A7CF00FBF580 /* link_gold_line.png */; };
+		A821167F1DE4A7CF00FBF580 /* link_red_line.png in Resources */ = {isa = PBXBuildFile; fileRef = A821165A1DE4A7CF00FBF580 /* link_red_line.png */; };
+		A82116801DE4A7CF00FBF580 /* link_tyrone.png in Resources */ = {isa = PBXBuildFile; fileRef = A821165B1DE4A7CF00FBF580 /* link_tyrone.png */; };
+		A82116811DE4A7CF00FBF580 /* link_purple_line.png in Resources */ = {isa = PBXBuildFile; fileRef = A821165C1DE4A7CF00FBF580 /* link_purple_line.png */; };
+		A82116821DE4A7CF00FBF580 /* link_cassville.png in Resources */ = {isa = PBXBuildFile; fileRef = A821165D1DE4A7CF00FBF580 /* link_cassville.png */; };
+		A82116831DE4A7CF00FBF580 /* link_blue_line.png in Resources */ = {isa = PBXBuildFile; fileRef = A821165E1DE4A7CF00FBF580 /* link_blue_line.png */; };
+		A82116841DE4A7CF00FBF580 /* link_crown.png in Resources */ = {isa = PBXBuildFile; fileRef = A821165F1DE4A7CF00FBF580 /* link_crown.png */; };
+		A82116851DE4A7CF00FBF580 /* link_mountain_heights.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116601DE4A7CF00FBF580 /* link_mountain_heights.png */; };
+		A82116861DE4A7CF00FBF580 /* link_grafton_road.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116611DE4A7CF00FBF580 /* link_grafton_road.png */; };
+		A82116871DE4A7CF00FBF580 /* link_pink_line.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116621DE4A7CF00FBF580 /* link_pink_line.png */; };
+		A82116881DE4A7CF00FBF580 /* link_grey_line.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116631DE4A7CF00FBF580 /* link_grey_line.png */; };
+		A82116891DE4A7CF00FBF580 /* link_west_run.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116641DE4A7CF00FBF580 /* link_west_run.png */; };
+		A821168A1DE4A7CF00FBF580 /* link_blue_and_gold_connector.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116651DE4A7CF00FBF580 /* link_blue_and_gold_connector.png */; };
+		A821168B1DE4A7CF00FBF580 /* link_beechurst_express.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116661DE4A7CF00FBF580 /* link_beechurst_express.png */; };
+		A821168C1DE4A7CF00FBF580 /* link_westover_park_and_ride.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116671DE4A7CF00FBF580 /* link_westover_park_and_ride.png */; };
+		A821168D1DE4A7CF00FBF580 /* link_valley_view.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116681DE4A7CF00FBF580 /* link_valley_view.png */; };
+		A821168E1DE4A7CF00FBF580 /* link_prt_status.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116691DE4A7CF00FBF580 /* link_prt_status.png */; };
+		A821168F1DE4A7CF00FBF580 /* link_schedule.png in Resources */ = {isa = PBXBuildFile; fileRef = A821166A1DE4A7CF00FBF580 /* link_schedule.png */; };
+		A82116901DE4A7CF00FBF580 /* link_prt_station_hours.png in Resources */ = {isa = PBXBuildFile; fileRef = A821166B1DE4A7CF00FBF580 /* link_prt_station_hours.png */; };
+		A82116911DE4A7CF00FBF580 /* link_station_map.png in Resources */ = {isa = PBXBuildFile; fileRef = A821166C1DE4A7CF00FBF580 /* link_station_map.png */; };
+		A82116921DE4A7CF00FBF580 /* link_parking_options.png in Resources */ = {isa = PBXBuildFile; fileRef = A821166D1DE4A7CF00FBF580 /* link_parking_options.png */; };
+		A82116931DE4A7CF00FBF580 /* link_athletic_parking.png in Resources */ = {isa = PBXBuildFile; fileRef = A821166E1DE4A7CF00FBF580 /* link_athletic_parking.png */; };
+		A82116941DE4A7CF00FBF580 /* link_parking_maps.png in Resources */ = {isa = PBXBuildFile; fileRef = A821166F1DE4A7CF00FBF580 /* link_parking_maps.png */; };
+		A82116951DE4A7CF00FBF580 /* link_permits.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116701DE4A7CF00FBF580 /* link_permits.png */; };
+		A82116961DE4A7CF00FBF580 /* link_call_parking_management_office.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116711DE4A7CF00FBF580 /* link_call_parking_management_office.png */; };
+		A82116971DE4A7CF00FBF580 /* link_call_yellow_cab.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116721DE4A7CF00FBF580 /* link_call_yellow_cab.png */; };
+		A82116981DE4A7CF00FBF580 /* link_call_motown_taxi.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116731DE4A7CF00FBF580 /* link_call_motown_taxi.png */; };
+		A82116A11DE4A7E400FBF580 /* link_student_tickets.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116991DE4A7E400FBF580 /* link_student_tickets.png */; };
+		A82116A21DE4A7E400FBF580 /* link_wvu_sports.png in Resources */ = {isa = PBXBuildFile; fileRef = A821169A1DE4A7E400FBF580 /* link_wvu_sports.png */; };
+		A82116A31DE4A7E400FBF580 /* link_schedules.png in Resources */ = {isa = PBXBuildFile; fileRef = A821169B1DE4A7E400FBF580 /* link_schedules.png */; };
+		A82116A41DE4A7E400FBF580 /* link_rec_center.png in Resources */ = {isa = PBXBuildFile; fileRef = A821169C1DE4A7E400FBF580 /* link_rec_center.png */; };
+		A82116A51DE4A7E400FBF580 /* link_rec_center_hours.png in Resources */ = {isa = PBXBuildFile; fileRef = A821169D1DE4A7E400FBF580 /* link_rec_center_hours.png */; };
+		A82116A61DE4A7E400FBF580 /* link_climbing_wall.png in Resources */ = {isa = PBXBuildFile; fileRef = A821169E1DE4A7E400FBF580 /* link_climbing_wall.png */; };
+		A82116A71DE4A7E400FBF580 /* link_club_sports.png in Resources */ = {isa = PBXBuildFile; fileRef = A821169F1DE4A7E400FBF580 /* link_club_sports.png */; };
+		A82116A81DE4A7E400FBF580 /* link_intramurals.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116A01DE4A7E400FBF580 /* link_intramurals.png */; };
+		A82116AF1DE4A7F000FBF580 /* link_wvu_medicine.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116A91DE4A7F000FBF580 /* link_wvu_medicine.png */; };
+		A82116B01DE4A7F000FBF580 /* link_students_center_of_health.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116AA1DE4A7F000FBF580 /* link_students_center_of_health.png */; };
+		A82116B11DE4A7F000FBF580 /* link_call_students_center_of_health.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116AB1DE4A7F000FBF580 /* link_call_students_center_of_health.png */; };
+		A82116B21DE4A7F000FBF580 /* link_ruby_memorial_hospital.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116AC1DE4A7F000FBF580 /* link_ruby_memorial_hospital.png */; };
+		A82116B31DE4A7F000FBF580 /* link_call_ruby_memorial_hospital.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116AD1DE4A7F000FBF580 /* link_call_ruby_memorial_hospital.png */; };
+		A82116B41DE4A7F000FBF580 /* link_health_services_hours.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116AE1DE4A7F000FBF580 /* link_health_services_hours.png */; };
+		A82116B71DE4FA3F00FBF580 /* LinksWebview.m in Sources */ = {isa = PBXBuildFile; fileRef = A82116B61DE4FA3F00FBF580 /* LinksWebview.m */; };
+		A82116C41DE62B1900FBF580 /* back_button@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116B81DE62B1900FBF580 /* back_button@1x.png */; };
+		A82116C51DE62B1900FBF580 /* back_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116B91DE62B1900FBF580 /* back_button@2x.png */; };
+		A82116C61DE62B1900FBF580 /* back_button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116BA1DE62B1900FBF580 /* back_button@3x.png */; };
+		A82116C71DE62B1900FBF580 /* close_menu@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116BB1DE62B1900FBF580 /* close_menu@1x.png */; };
+		A82116C81DE62B1900FBF580 /* close_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116BC1DE62B1900FBF580 /* close_menu@2x.png */; };
+		A82116C91DE62B1900FBF580 /* close_menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116BD1DE62B1900FBF580 /* close_menu@3x.png */; };
+		A82116CA1DE62B1900FBF580 /* forward_menu@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116BE1DE62B1900FBF580 /* forward_menu@1x.png */; };
+		A82116CB1DE62B1900FBF580 /* forward_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116BF1DE62B1900FBF580 /* forward_menu@2x.png */; };
+		A82116CC1DE62B1900FBF580 /* forward_menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116C01DE62B1900FBF580 /* forward_menu@3x.png */; };
+		A82116CD1DE62B1900FBF580 /* refresh_menu@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116C11DE62B1900FBF580 /* refresh_menu@1x.png */; };
+		A82116CE1DE62B1900FBF580 /* refresh_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116C21DE62B1900FBF580 /* refresh_menu@2x.png */; };
+		A82116CF1DE62B1900FBF580 /* refresh_menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A82116C31DE62B1900FBF580 /* refresh_menu@3x.png */; };
+		A859C5EB1C30CD84000CF361 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A859C5EA1C30CD84000CF361 /* main.m */; };
+		A859C5EE1C30CD84000CF361 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A859C5ED1C30CD84000CF361 /* AppDelegate.m */; };
+		A859C5F41C30CD84000CF361 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A859C5F21C30CD84000CF361 /* Main.storyboard */; };
+		A859C5F71C30CD84000CF361 /* MyWVU.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A859C5F51C30CD84000CF361 /* MyWVU.xcdatamodeld */; };
+		A859C5F91C30CD84000CF361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A859C5F81C30CD84000CF361 /* Assets.xcassets */; };
+		A859C6071C30CD84000CF361 /* MyWVUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A859C6061C30CD84000CF361 /* MyWVUTests.m */; };
+		A859C6121C30CD84000CF361 /* MyWVUUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A859C6111C30CD84000CF361 /* MyWVUUITests.m */; };
+		A859C6201C318F9F000CF361 /* MainMenuBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C61F1C318F9F000CF361 /* MainMenuBackground.png */; };
+		A859C6221C319112000CF361 /* MyWVULogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C6211C319112000CF361 /* MyWVULogo.png */; };
+		A859C6251C319148000CF361 /* MyWVULogoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C6241C319148000CF361 /* MyWVULogoButton.png */; };
+		A859C63A1C375682000CF361 /* Splash Background.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C6391C375682000CF361 /* Splash Background.png */; };
+		A859C63E1C375759000CF361 /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A859C63D1C375759000CF361 /* MainMenu.m */; };
+		A859C6401C375A33000CF361 /* Gear Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C63F1C375A33000CF361 /* Gear Menu Button.png */; };
+		A859C6421C375B71000CF361 /* Dropdown Menu Button Background.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C6411C375B71000CF361 /* Dropdown Menu Button Background.png */; };
+		A859C6461C375E55000CF361 /* CategorySelectorBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C6451C375E55000CF361 /* CategorySelectorBackground.png */; };
+		A859C6521C375F1E000CF361 /* academic_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C6481C375F1E000CF361 /* academic_icon.png */; };
+		A859C6531C375F1E000CF361 /* campus_dining_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C6491C375F1E000CF361 /* campus_dining_icon.png */; };
+		A859C6541C375F1E000CF361 /* campus_information_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C64A1C375F1E000CF361 /* campus_information_icon.png */; };
+		A859C6551C375F1E000CF361 /* campus_news_and_events_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C64B1C375F1E000CF361 /* campus_news_and_events_icon.png */; };
+		A859C6561C375F1E000CF361 /* campus_police_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C64C1C375F1E000CF361 /* campus_police_icon.png */; };
+		A859C6571C375F1E000CF361 /* greek_life_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C64D1C375F1E000CF361 /* greek_life_icon.png */; };
+		A859C6581C375F1E000CF361 /* nightlife_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C64E1C375F1E000CF361 /* nightlife_icon.png */; };
+		A859C6591C375F1E000CF361 /* parking_and_transportation_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C64F1C375F1E000CF361 /* parking_and_transportation_icon.png */; };
+		A859C65A1C375F1E000CF361 /* sports_and_fitness_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C6501C375F1E000CF361 /* sports_and_fitness_icon.png */; };
+		A859C65B1C375F1E000CF361 /* student_health_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C6511C375F1E000CF361 /* student_health_icon.png */; };
+		A859C65D1C37610B000CF361 /* Academic.plist in Resources */ = {isa = PBXBuildFile; fileRef = A859C65C1C37610B000CF361 /* Academic.plist */; };
+		A859C6601C376135000CF361 /* CampusInformation.plist in Resources */ = {isa = PBXBuildFile; fileRef = A859C65F1C376135000CF361 /* CampusInformation.plist */; };
+		A859C6621C37614A000CF361 /* CampusDining.plist in Resources */ = {isa = PBXBuildFile; fileRef = A859C6611C37614A000CF361 /* CampusDining.plist */; };
+		A859C6641C376171000CF361 /* CampusNewsAndEvents.plist in Resources */ = {isa = PBXBuildFile; fileRef = A859C6631C376171000CF361 /* CampusNewsAndEvents.plist */; };
+		A859C6661C37617E000CF361 /* Greeklife.plist in Resources */ = {isa = PBXBuildFile; fileRef = A859C6651C37617E000CF361 /* Greeklife.plist */; };
+		A859C6681C37618B000CF361 /* CampusPolice.plist in Resources */ = {isa = PBXBuildFile; fileRef = A859C6671C37618B000CF361 /* CampusPolice.plist */; };
+		A859C66A1C3761AB000CF361 /* Nightlife.plist in Resources */ = {isa = PBXBuildFile; fileRef = A859C6691C3761AB000CF361 /* Nightlife.plist */; };
+		A859C66E1C3761C1000CF361 /* SportsAndFitness.plist in Resources */ = {isa = PBXBuildFile; fileRef = A859C66D1C3761C1000CF361 /* SportsAndFitness.plist */; };
+		A859C6701C3761CB000CF361 /* StudentHealth.plist in Resources */ = {isa = PBXBuildFile; fileRef = A859C66F1C3761CB000CF361 /* StudentHealth.plist */; };
+		A859C6A41C378B0C000CF361 /* Webview.m in Sources */ = {isa = PBXBuildFile; fileRef = A859C6A31C378B0C000CF361 /* Webview.m */; };
+		A859C7781C37A36D000CF361 /* ParkingAndTransportation.plist in Resources */ = {isa = PBXBuildFile; fileRef = A859C7771C37A36D000CF361 /* ParkingAndTransportation.plist */; };
+		A859C7E51C3B0148000CF361 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A859C7E41C3B0148000CF361 /* Launch Screen.storyboard */; };
+		A859C7E81C3B0226000CF361 /* Information.m in Sources */ = {isa = PBXBuildFile; fileRef = A859C7E71C3B0226000CF361 /* Information.m */; };
+		A859C7EC1C3B0760000CF361 /* Feedback.m in Sources */ = {isa = PBXBuildFile; fileRef = A859C7EB1C3B0760000CF361 /* Feedback.m */; };
+		A859C7EE1C3B0BC0000CF361 /* WebviewInstructions.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C7ED1C3B0BC0000CF361 /* WebviewInstructions.png */; };
+		A859C7F01C3B16AA000CF361 /* refresh_howtouse.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C7EF1C3B16AA000CF361 /* refresh_howtouse.png */; };
+		A859C7F41C3B1720000CF361 /* forwardbutton_howtouse.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C7F11C3B1720000CF361 /* forwardbutton_howtouse.png */; };
+		A859C7F51C3B1720000CF361 /* close_howtouse.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C7F21C3B1720000CF361 /* close_howtouse.png */; };
+		A859C7F61C3B1720000CF361 /* backbutton_howtouse.png in Resources */ = {isa = PBXBuildFile; fileRef = A859C7F31C3B1720000CF361 /* backbutton_howtouse.png */; };
+		A859C7F91C3B18F8000CF361 /* HowToUse.m in Sources */ = {isa = PBXBuildFile; fileRef = A859C7F81C3B18F8000CF361 /* HowToUse.m */; };
+		A8C241F21C3B451A00E886DC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C241F11C3B451A00E886DC /* StoreKit.framework */; };
+		A8C241F41C3B64FE00E886DC /* Settings Section Divider.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C241F31C3B64FD00E886DC /* Settings Section Divider.png */; };
+		A8C241F81C3CAAB800E886DC /* CategoryViewBackground Color.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C241F71C3CAAB800E886DC /* CategoryViewBackground Color.png */; };
+		A8C241FF1C3CB85300E886DC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C241FE1C3CB85300E886DC /* CoreTelephony.framework */; };
+		A8C242011C3CB85F00E886DC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C242001C3CB85F00E886DC /* SystemConfiguration.framework */; };
+		A8C242031C3CB86800E886DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C242021C3CB86700E886DC /* CoreGraphics.framework */; };
+		A8C242051C3CB87800E886DC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C242041C3CB87800E886DC /* AdSupport.framework */; };
+		A8C242071C3CB89500E886DC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C242061C3CB89500E886DC /* CoreMedia.framework */; };
+		A8C242091C3CB89C00E886DC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C242081C3CB89C00E886DC /* QuartzCore.framework */; };
+		A8C2420B1C3CB8A300E886DC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C2420A1C3CB8A300E886DC /* AVFoundation.framework */; };
+		A8C2420D1C3CB8B400E886DC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C2420C1C3CB8B400E886DC /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A859C6031C30CD84000CF361 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A859C5DE1C30CD84000CF361 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A859C5E51C30CD84000CF361;
+			remoteInfo = MyWVU;
+		};
+		A859C60E1C30CD84000CF361 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A859C5DE1C30CD84000CF361 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A859C5E51C30CD84000CF361;
+			remoteInfo = MyWVU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A806EC841D62899B0001452F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../Additional SDK/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
+		A806EC851D62899B0001452F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../Additional SDK/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
+		A806EC871D628A2C0001452F /* SlideOutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideOutVC.h; sourceTree = "<group>"; };
+		A806EC881D628A2C0001452F /* SlideOutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideOutVC.m; sourceTree = "<group>"; };
+		A806EC8B1D628B280001452F /* AcademicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcademicVC.h; sourceTree = "<group>"; };
+		A806EC8C1D628B280001452F /* AcademicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcademicVC.m; sourceTree = "<group>"; };
+		A806EC931D628FB60001452F /* SlideCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideCustomCell.h; sourceTree = "<group>"; };
+		A806EC941D628FB60001452F /* SlideCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideCustomCell.m; sourceTree = "<group>"; };
+		A806EC951D628FB60001452F /* SlideCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideCustomCell.xib; sourceTree = "<group>"; };
+		A806EC991D6292880001452F /* SlideOut.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = SlideOut.plist; path = ../SlideOut.plist; sourceTree = "<group>"; };
+		A806EC9B1D62C5390001452F /* ic_menu_white_36pt_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_menu_white_36pt_2x.png; path = "../../Images/Main Menu/Menu Image/ic_menu_white_36pt_2x.png"; sourceTree = "<group>"; };
+		A806EC9C1D62C5390001452F /* ic_menu_white_36pt_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_menu_white_36pt_3x.png; path = "../../Images/Main Menu/Menu Image/ic_menu_white_36pt_3x.png"; sourceTree = "<group>"; };
+		A806EC9D1D62C5390001452F /* ic_menu_white_36pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_menu_white_36pt.png; path = "../../Images/Main Menu/Menu Image/ic_menu_white_36pt.png"; sourceTree = "<group>"; };
+		A806ECA51D62C8030001452F /* DiningVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiningVC.h; path = ../DiningVC.h; sourceTree = "<group>"; };
+		A806ECA61D62C8030001452F /* DiningVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiningVC.m; path = ../DiningVC.m; sourceTree = "<group>"; };
+		A806ECA91D62C8230001452F /* InformationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationVC.h; sourceTree = "<group>"; };
+		A806ECAA1D62C8230001452F /* InformationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationVC.m; sourceTree = "<group>"; };
+		A81642AD1C3CBB2D004D19B8 /* StartApp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = StartApp.bundle; sourceTree = "<group>"; };
+		A81642AE1C3CBB2D004D19B8 /* StartApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StartApp.framework; sourceTree = "<group>"; };
+		A81642B11C3CD68A004D19B8 /* FirstTimeMessage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FirstTimeMessage.png; sourceTree = "<group>"; };
+		A82115651DE3944300FBF580 /* NewsEventsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsEventsVC.h; sourceTree = "<group>"; };
+		A82115661DE3944300FBF580 /* NewsEventsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsEventsVC.m; sourceTree = "<group>"; };
+		A82115681DE3946600FBF580 /* CampusPoliceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampusPoliceVC.h; sourceTree = "<group>"; };
+		A82115691DE3946600FBF580 /* CampusPoliceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampusPoliceVC.m; sourceTree = "<group>"; };
+		A821156B1DE3947400FBF580 /* GreeklifeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreeklifeVC.h; sourceTree = "<group>"; };
+		A821156C1DE3947400FBF580 /* GreeklifeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreeklifeVC.m; sourceTree = "<group>"; };
+		A821156E1DE3948100FBF580 /* NightlifeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NightlifeVC.h; sourceTree = "<group>"; };
+		A821156F1DE3948100FBF580 /* NightlifeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NightlifeVC.m; sourceTree = "<group>"; };
+		A82115711DE3949100FBF580 /* ParkingTransportationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingTransportationVC.h; sourceTree = "<group>"; };
+		A82115721DE3949100FBF580 /* ParkingTransportationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkingTransportationVC.m; sourceTree = "<group>"; };
+		A82115741DE3949E00FBF580 /* SportsFitnessVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportsFitnessVC.h; sourceTree = "<group>"; };
+		A82115751DE3949E00FBF580 /* SportsFitnessVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportsFitnessVC.m; sourceTree = "<group>"; };
+		A82115771DE394A900FBF580 /* StudentHealthVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentHealthVC.h; sourceTree = "<group>"; };
+		A82115781DE394A900FBF580 /* StudentHealthVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentHealthVC.m; sourceTree = "<group>"; };
+		A82115811DE4A6D900FBF580 /* link_account_balance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_account_balance.png; path = "../../Images/Link Buttons/Version 2/Campus Dining/link_account_balance.png"; sourceTree = "<group>"; };
+		A82115821DE4A6D900FBF580 /* link_arnolds_diner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_arnolds_diner.png; path = "../../Images/Link Buttons/Version 2/Campus Dining/link_arnolds_diner.png"; sourceTree = "<group>"; };
+		A82115831DE4A6D900FBF580 /* link_boreman_bistro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_boreman_bistro.png; path = "../../Images/Link Buttons/Version 2/Campus Dining/link_boreman_bistro.png"; sourceTree = "<group>"; };
+		A82115841DE4A6D900FBF580 /* link_cafe_evansdale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_cafe_evansdale.png; path = "../../Images/Link Buttons/Version 2/Campus Dining/link_cafe_evansdale.png"; sourceTree = "<group>"; };
+		A82115851DE4A6D900FBF580 /* link_hatfields.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_hatfields.png; path = "../../Images/Link Buttons/Version 2/Campus Dining/link_hatfields.png"; sourceTree = "<group>"; };
+		A82115861DE4A6D900FBF580 /* link_summit_cafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_summit_cafe.png; path = "../../Images/Link Buttons/Version 2/Campus Dining/link_summit_cafe.png"; sourceTree = "<group>"; };
+		A82115871DE4A6D900FBF580 /* link_terrace_room.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_terrace_room.png; path = "../../Images/Link Buttons/Version 2/Campus Dining/link_terrace_room.png"; sourceTree = "<group>"; };
+		A82115881DE4A6D900FBF580 /* link_mountainlair_food_court.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_mountainlair_food_court.png; path = "../../Images/Link Buttons/Version 2/Campus Dining/link_mountainlair_food_court.png"; sourceTree = "<group>"; };
+		A82115891DE4A6D900FBF580 /* link_bits_and_bytes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_bits_and_bytes.png; path = "../../Images/Link Buttons/Version 2/Campus Dining/link_bits_and_bytes.png"; sourceTree = "<group>"; };
+		A821158A1DE4A6D900FBF580 /* link_brew_n_gold_cafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_brew_n_gold_cafe.png; path = "../../Images/Link Buttons/Version 2/Campus Dining/link_brew_n_gold_cafe.png"; sourceTree = "<group>"; };
+		A821158B1DE4A6D900FBF580 /* link_coffee_shops.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_coffee_shops.png; path = "../../Images/Link Buttons/Version 2/Campus Dining/link_coffee_shops.png"; sourceTree = "<group>"; };
+		A821158C1DE4A6D900FBF580 /* link_the_greenhouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_the_greenhouse.png; path = "../../Images/Link Buttons/Version 2/Campus Dining/link_the_greenhouse.png"; sourceTree = "<group>"; };
+		A821158D1DE4A6D900FBF580 /* link_lyons_den.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_lyons_den.png; path = "../../Images/Link Buttons/Version 2/Campus Dining/link_lyons_den.png"; sourceTree = "<group>"; };
+		A821158E1DE4A6D900FBF580 /* link_summit_grab_n_go.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_summit_grab_n_go.png; path = "../../Images/Link Buttons/Version 2/Campus Dining/link_summit_grab_n_go.png"; sourceTree = "<group>"; };
+		A821158F1DE4A6D900FBF580 /* link_evansdale_crossing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_evansdale_crossing.png; path = "../../Images/Link Buttons/Version 2/Campus Dining/link_evansdale_crossing.png"; sourceTree = "<group>"; };
+		A821159F1DE4A70300FBF580 /* link_ecampus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_ecampus.png; path = "../../Images/Link Buttons/Version 2/Academic/link_ecampus.png"; sourceTree = "<group>"; };
+		A82115A01DE4A70300FBF580 /* link_wvu_gmail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_wvu_gmail.png; path = "../../Images/Link Buttons/Version 2/Academic/link_wvu_gmail.png"; sourceTree = "<group>"; };
+		A82115A11DE4A70300FBF580 /* link_mix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_mix.png; path = "../../Images/Link Buttons/Version 2/Academic/link_mix.png"; sourceTree = "<group>"; };
+		A82115A21DE4A70300FBF580 /* link_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_star.png; path = "../../Images/Link Buttons/Version 2/Academic/link_star.png"; sourceTree = "<group>"; };
+		A82115A31DE4A70300FBF580 /* link_sole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_sole.png; path = "../../Images/Link Buttons/Version 2/Academic/link_sole.png"; sourceTree = "<group>"; };
+		A82115A41DE4A70300FBF580 /* link_my_mountaineer_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_my_mountaineer_card.png; path = "../../Images/Link Buttons/Version 2/Academic/link_my_mountaineer_card.png"; sourceTree = "<group>"; };
+		A82115A51DE4A70300FBF580 /* link_mountie_bounty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_mountie_bounty.png; path = "../../Images/Link Buttons/Version 2/Academic/link_mountie_bounty.png"; sourceTree = "<group>"; };
+		A82115A61DE4A70300FBF580 /* link_schedule_of_courses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_schedule_of_courses.png; path = "../../Images/Link Buttons/Version 2/Academic/link_schedule_of_courses.png"; sourceTree = "<group>"; };
+		A82115A71DE4A70300FBF580 /* link_wvu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_wvu.png; path = "../../Images/Link Buttons/Version 2/Academic/link_wvu.png"; sourceTree = "<group>"; };
+		A82115A81DE4A70300FBF580 /* link_online_and_extended_campus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_online_and_extended_campus.png; path = "../../Images/Link Buttons/Version 2/Academic/link_online_and_extended_campus.png"; sourceTree = "<group>"; };
+		A82115A91DE4A70300FBF580 /* link_academic_calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_academic_calendar.png; path = "../../Images/Link Buttons/Version 2/Academic/link_academic_calendar.png"; sourceTree = "<group>"; };
+		A82115AA1DE4A70300FBF580 /* link_computer_lab_hours.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_computer_lab_hours.png; path = "../../Images/Link Buttons/Version 2/Academic/link_computer_lab_hours.png"; sourceTree = "<group>"; };
+		A82115AB1DE4A70300FBF580 /* link_downtown_library_hours.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_downtown_library_hours.png; path = "../../Images/Link Buttons/Version 2/Academic/link_downtown_library_hours.png"; sourceTree = "<group>"; };
+		A82115AC1DE4A70300FBF580 /* link_evansdale_library_hours.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_evansdale_library_hours.png; path = "../../Images/Link Buttons/Version 2/Academic/link_evansdale_library_hours.png"; sourceTree = "<group>"; };
+		A82115AD1DE4A70300FBF580 /* link_health_sciences_library_hours.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_health_sciences_library_hours.png; path = "../../Images/Link Buttons/Version 2/Academic/link_health_sciences_library_hours.png"; sourceTree = "<group>"; };
+		A82115AE1DE4A70300FBF580 /* link_law_library_hours.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_law_library_hours.png; path = "../../Images/Link Buttons/Version 2/Academic/link_law_library_hours.png"; sourceTree = "<group>"; };
+		A82115AF1DE4A70300FBF580 /* link_library_databases.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_library_databases.png; path = "../../Images/Link Buttons/Version 2/Academic/link_library_databases.png"; sourceTree = "<group>"; };
+		A82115B01DE4A70300FBF580 /* link_my_library_account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_my_library_account.png; path = "../../Images/Link Buttons/Version 2/Academic/link_my_library_account.png"; sourceTree = "<group>"; };
+		A82115B11DE4A70300FBF580 /* link_library_computer_availability.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_library_computer_availability.png; path = "../../Images/Link Buttons/Version 2/Academic/link_library_computer_availability.png"; sourceTree = "<group>"; };
+		A82115B21DE4A70300FBF580 /* link_myprinting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_myprinting.png; path = "../../Images/Link Buttons/Version 2/Academic/link_myprinting.png"; sourceTree = "<group>"; };
+		A82115B31DE4A70300FBF580 /* link_academic_advising.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_academic_advising.png; path = "../../Images/Link Buttons/Version 2/Academic/link_academic_advising.png"; sourceTree = "<group>"; };
+		A82115B41DE4A70300FBF580 /* link_career_services.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_career_services.png; path = "../../Images/Link Buttons/Version 2/Academic/link_career_services.png"; sourceTree = "<group>"; };
+		A82115B51DE4A70300FBF580 /* link_directory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_directory.png; path = "../../Images/Link Buttons/Version 2/Academic/link_directory.png"; sourceTree = "<group>"; };
+		A82115B61DE4A70300FBF580 /* link_academic_resource_centers_and_tutoring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_academic_resource_centers_and_tutoring.png; path = "../../Images/Link Buttons/Version 2/Academic/link_academic_resource_centers_and_tutoring.png"; sourceTree = "<group>"; };
+		A82115CF1DE4A73B00FBF580 /* link_campus_web_site.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_campus_web_site.png; path = "../../Images/Link Buttons/Version 2/Campus Information/link_campus_web_site.png"; sourceTree = "<group>"; };
+		A82115D01DE4A73B00FBF580 /* link_campus_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_campus_map.png; path = "../../Images/Link Buttons/Version 2/Campus Information/link_campus_map.png"; sourceTree = "<group>"; };
+		A82115D11DE4A73B00FBF580 /* link_clubs_and_organizations.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_clubs_and_organizations.png; path = "../../Images/Link Buttons/Version 2/Campus Information/link_clubs_and_organizations.png"; sourceTree = "<group>"; };
+		A82115D21DE4A73B00FBF580 /* link_it_help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_it_help.png; path = "../../Images/Link Buttons/Version 2/Campus Information/link_it_help.png"; sourceTree = "<group>"; };
+		A82115D31DE4A73B00FBF580 /* link_it_services.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_it_services.png; path = "../../Images/Link Buttons/Version 2/Campus Information/link_it_services.png"; sourceTree = "<group>"; };
+		A82115D41DE4A73B00FBF580 /* link_bookstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_bookstore.png; path = "../../Images/Link Buttons/Version 2/Campus Information/link_bookstore.png"; sourceTree = "<group>"; };
+		A82115D51DE4A73B00FBF580 /* link_on_campus_housing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_on_campus_housing.png; path = "../../Images/Link Buttons/Version 2/Campus Information/link_on_campus_housing.png"; sourceTree = "<group>"; };
+		A82115D61DE4A73B00FBF580 /* link_off_campus_housing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_off_campus_housing.png; path = "../../Images/Link Buttons/Version 2/Campus Information/link_off_campus_housing.png"; sourceTree = "<group>"; };
+		A82115D71DE4A73B00FBF580 /* link_comcast_tv_channel_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_comcast_tv_channel_list.png; path = "../../Images/Link Buttons/Version 2/Campus Information/link_comcast_tv_channel_list.png"; sourceTree = "<group>"; };
+		A82115D81DE4A73B00FBF580 /* link_college_cable_tv_channel_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_college_cable_tv_channel_list.png; path = "../../Images/Link Buttons/Version 2/Campus Information/link_college_cable_tv_channel_list.png"; sourceTree = "<group>"; };
+		A82115E31DE4A75C00FBF580 /* link_calendar_of_events.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_calendar_of_events.png; path = "../../Images/Link Buttons/Version 2/Campus News & Events/link_calendar_of_events.png"; sourceTree = "<group>"; };
+		A82115E41DE4A75C00FBF580 /* link_arts_and_entertainment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_arts_and_entertainment.png; path = "../../Images/Link Buttons/Version 2/Campus News & Events/link_arts_and_entertainment.png"; sourceTree = "<group>"; };
+		A82115E51DE4A75C00FBF580 /* link_wvu_today.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_wvu_today.png; path = "../../Images/Link Buttons/Version 2/Campus News & Events/link_wvu_today.png"; sourceTree = "<group>"; };
+		A82115E61DE4A75C00FBF580 /* link_wvu_news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_wvu_news.png; path = "../../Images/Link Buttons/Version 2/Campus News & Events/link_wvu_news.png"; sourceTree = "<group>"; };
+		A82115E71DE4A75C00FBF580 /* link_the_daily_athenaeum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_the_daily_athenaeum.png; path = "../../Images/Link Buttons/Version 2/Campus News & Events/link_the_daily_athenaeum.png"; sourceTree = "<group>"; };
+		A82115E81DE4A75C00FBF580 /* link_campus_weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_campus_weather.png; path = "../../Images/Link Buttons/Version 2/Campus News & Events/link_campus_weather.png"; sourceTree = "<group>"; };
+		A82115EF1DE4A77100FBF580 /* link_police.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_police.png; path = "../../Images/Link Buttons/Version 2/Campus Police/link_police.png"; sourceTree = "<group>"; };
+		A82115F01DE4A77100FBF580 /* link_call_police.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_call_police.png; path = "../../Images/Link Buttons/Version 2/Campus Police/link_call_police.png"; sourceTree = "<group>"; };
+		A82115F11DE4A77100FBF580 /* link_report_a_threat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_report_a_threat.png; path = "../../Images/Link Buttons/Version 2/Campus Police/link_report_a_threat.png"; sourceTree = "<group>"; };
+		A82115F21DE4A77100FBF580 /* link_campus_safety_tips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_campus_safety_tips.png; path = "../../Images/Link Buttons/Version 2/Campus Police/link_campus_safety_tips.png"; sourceTree = "<group>"; };
+		A82115F31DE4A77100FBF580 /* link_important_wvu_telephone_numbers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_important_wvu_telephone_numbers.png; path = "../../Images/Link Buttons/Version 2/Campus Police/link_important_wvu_telephone_numbers.png"; sourceTree = "<group>"; };
+		A82115F41DE4A77100FBF580 /* link_wvu_alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_wvu_alert.png; path = "../../Images/Link Buttons/Version 2/Campus Police/link_wvu_alert.png"; sourceTree = "<group>"; };
+		A82115F51DE4A77100FBF580 /* link_emergency_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_emergency_info.png; path = "../../Images/Link Buttons/Version 2/Campus Police/link_emergency_info.png"; sourceTree = "<group>"; };
+		A82115FD1DE4A79400FBF580 /* link_alpha_epsilon_pi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_alpha_epsilon_pi.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_alpha_epsilon_pi.png"; sourceTree = "<group>"; };
+		A82115FE1DE4A79400FBF580 /* link_alpha_gamma_rho.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_alpha_gamma_rho.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_alpha_gamma_rho.png"; sourceTree = "<group>"; };
+		A82115FF1DE4A79400FBF580 /* link_alpha_phi_alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_alpha_phi_alpha.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_alpha_phi_alpha.png"; sourceTree = "<group>"; };
+		A82116001DE4A79400FBF580 /* link_alpha_sigma_phi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_alpha_sigma_phi.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_alpha_sigma_phi.png"; sourceTree = "<group>"; };
+		A82116011DE4A79400FBF580 /* link_delta_tau_delta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_delta_tau_delta.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_delta_tau_delta.png"; sourceTree = "<group>"; };
+		A82116021DE4A79400FBF580 /* link_kappa_alpha_order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_kappa_alpha_order.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_kappa_alpha_order.png"; sourceTree = "<group>"; };
+		A82116031DE4A79400FBF580 /* link_kappa_alpha_psi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_kappa_alpha_psi.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_kappa_alpha_psi.png"; sourceTree = "<group>"; };
+		A82116041DE4A79400FBF580 /* link_omega_psi_phi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_omega_psi_phi.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_omega_psi_phi.png"; sourceTree = "<group>"; };
+		A82116051DE4A79400FBF580 /* link_phi_delta_theta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_phi_delta_theta.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_phi_delta_theta.png"; sourceTree = "<group>"; };
+		A82116061DE4A79400FBF580 /* link_phi_gamma_delta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_phi_gamma_delta.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_phi_gamma_delta.png"; sourceTree = "<group>"; };
+		A82116071DE4A79400FBF580 /* link_phi_sigma_kappa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_phi_sigma_kappa.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_phi_sigma_kappa.png"; sourceTree = "<group>"; };
+		A82116081DE4A79400FBF580 /* link_pi_kappa_alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_pi_kappa_alpha.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_pi_kappa_alpha.png"; sourceTree = "<group>"; };
+		A82116091DE4A79400FBF580 /* link_sigma_alpha_epsilon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_sigma_alpha_epsilon.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_sigma_alpha_epsilon.png"; sourceTree = "<group>"; };
+		A821160A1DE4A79400FBF580 /* link_sigma_alpha_mu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_sigma_alpha_mu.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_sigma_alpha_mu.png"; sourceTree = "<group>"; };
+		A821160B1DE4A79400FBF580 /* link_sigma_chi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_sigma_chi.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_sigma_chi.png"; sourceTree = "<group>"; };
+		A821160C1DE4A79400FBF580 /* link_sigma_nu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_sigma_nu.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_sigma_nu.png"; sourceTree = "<group>"; };
+		A821160D1DE4A79400FBF580 /* link_sigma_phi_epsilon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_sigma_phi_epsilon.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_sigma_phi_epsilon.png"; sourceTree = "<group>"; };
+		A821160E1DE4A79400FBF580 /* link_tau_kappa_epsilon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_tau_kappa_epsilon.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_tau_kappa_epsilon.png"; sourceTree = "<group>"; };
+		A821160F1DE4A79400FBF580 /* link_theta_chi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_theta_chi.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_theta_chi.png"; sourceTree = "<group>"; };
+		A82116101DE4A79400FBF580 /* link_alpha_kappa_alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_alpha_kappa_alpha.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_alpha_kappa_alpha.png"; sourceTree = "<group>"; };
+		A82116111DE4A79400FBF580 /* link_alpha_omicron_pi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_alpha_omicron_pi.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_alpha_omicron_pi.png"; sourceTree = "<group>"; };
+		A82116121DE4A79400FBF580 /* link_alpha_phi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_alpha_phi.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_alpha_phi.png"; sourceTree = "<group>"; };
+		A82116131DE4A79400FBF580 /* link_alpha_xi_delta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_alpha_xi_delta.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_alpha_xi_delta.png"; sourceTree = "<group>"; };
+		A82116141DE4A79400FBF580 /* link_chi_omega.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_chi_omega.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_chi_omega.png"; sourceTree = "<group>"; };
+		A82116151DE4A79400FBF580 /* link_delta_gamma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_delta_gamma.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_delta_gamma.png"; sourceTree = "<group>"; };
+		A82116161DE4A79400FBF580 /* link_delta_sigma_theta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_delta_sigma_theta.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_delta_sigma_theta.png"; sourceTree = "<group>"; };
+		A82116171DE4A79400FBF580 /* link_kappa_kappa_gamma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_kappa_kappa_gamma.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_kappa_kappa_gamma.png"; sourceTree = "<group>"; };
+		A82116181DE4A79400FBF580 /* link_pi_beta_phi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_pi_beta_phi.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_pi_beta_phi.png"; sourceTree = "<group>"; };
+		A82116191DE4A79400FBF580 /* link_sigma_kappa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_sigma_kappa.png; path = "../../Images/Link Buttons/Version 2/Greeklife/link_sigma_kappa.png"; sourceTree = "<group>"; };
+		A82116371DE4A7AA00FBF580 /* link_restaurants.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_restaurants.png; path = "../../Images/Link Buttons/Version 2/Nightlife/link_restaurants.png"; sourceTree = "<group>"; };
+		A82116381DE4A7AA00FBF580 /* link_bars_and_nightclubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_bars_and_nightclubs.png; path = "../../Images/Link Buttons/Version 2/Nightlife/link_bars_and_nightclubs.png"; sourceTree = "<group>"; };
+		A82116391DE4A7AA00FBF580 /* link_bar_specials.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_bar_specials.png; path = "../../Images/Link Buttons/Version 2/Nightlife/link_bar_specials.png"; sourceTree = "<group>"; };
+		A821163A1DE4A7AA00FBF580 /* link_adult_recreation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_adult_recreation.png; path = "../../Images/Link Buttons/Version 2/Nightlife/link_adult_recreation.png"; sourceTree = "<group>"; };
+		A821163B1DE4A7AA00FBF580 /* link_wvup_all_night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_wvup_all_night.png; path = "../../Images/Link Buttons/Version 2/Nightlife/link_wvup_all_night.png"; sourceTree = "<group>"; };
+		A821163C1DE4A7AA00FBF580 /* link_morgantown_mall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_morgantown_mall.png; path = "../../Images/Link Buttons/Version 2/Nightlife/link_morgantown_mall.png"; sourceTree = "<group>"; };
+		A821163D1DE4A7AA00FBF580 /* link_regal_cinemas_morgantown_twelve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_regal_cinemas_morgantown_twelve.png; path = "../../Images/Link Buttons/Version 2/Nightlife/link_regal_cinemas_morgantown_twelve.png"; sourceTree = "<group>"; };
+		A821163E1DE4A7AA00FBF580 /* link_carmike_cinemas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_carmike_cinemas.png; path = "../../Images/Link Buttons/Version 2/Nightlife/link_carmike_cinemas.png"; sourceTree = "<group>"; };
+		A821163F1DE4A7AA00FBF580 /* link_mt_pockets_theatre_company.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_mt_pockets_theatre_company.png; path = "../../Images/Link Buttons/Version 2/Nightlife/link_mt_pockets_theatre_company.png"; sourceTree = "<group>"; };
+		A82116401DE4A7AA00FBF580 /* link_morgantown_diy_outdoors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_morgantown_diy_outdoors.png; path = "../../Images/Link Buttons/Version 2/Nightlife/link_morgantown_diy_outdoors.png"; sourceTree = "<group>"; };
+		A82116411DE4A7AA00FBF580 /* link_sunset_beach_marina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_sunset_beach_marina.png; path = "../../Images/Link Buttons/Version 2/Nightlife/link_sunset_beach_marina.png"; sourceTree = "<group>"; };
+		A82116421DE4A7AA00FBF580 /* link_suburban_lanes_bowling_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_suburban_lanes_bowling_center.png; path = "../../Images/Link Buttons/Version 2/Nightlife/link_suburban_lanes_bowling_center.png"; sourceTree = "<group>"; };
+		A821164F1DE4A7CF00FBF580 /* link_mountain_line_transit_authority.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_mountain_line_transit_authority.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_mountain_line_transit_authority.png"; sourceTree = "<group>"; };
+		A82116501DE4A7CF00FBF580 /* link_route_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_route_list.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_route_list.png"; sourceTree = "<group>"; };
+		A82116511DE4A7CF00FBF580 /* link_bus_tracker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_bus_tracker.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_bus_tracker.png"; sourceTree = "<group>"; };
+		A82116521DE4A7CF00FBF580 /* link_wvu_campus_services.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_wvu_campus_services.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_wvu_campus_services.png"; sourceTree = "<group>"; };
+		A82116531DE4A7CF00FBF580 /* link_wvu_football_shuttle_service.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_wvu_football_shuttle_service.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_wvu_football_shuttle_service.png"; sourceTree = "<group>"; };
+		A82116541DE4A7CF00FBF580 /* link_campus_pm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_campus_pm.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_campus_pm.png"; sourceTree = "<group>"; };
+		A82116551DE4A7CF00FBF580 /* link_downtown_pm_mall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_downtown_pm_mall.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_downtown_pm_mall.png"; sourceTree = "<group>"; };
+		A82116561DE4A7CF00FBF580 /* link_green_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_green_line.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_green_line.png"; sourceTree = "<group>"; };
+		A82116571DE4A7CF00FBF580 /* link_orange_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_orange_line.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_orange_line.png"; sourceTree = "<group>"; };
+		A82116581DE4A7CF00FBF580 /* link_orange_line_tripper_express.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_orange_line_tripper_express.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_orange_line_tripper_express.png"; sourceTree = "<group>"; };
+		A82116591DE4A7CF00FBF580 /* link_gold_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_gold_line.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_gold_line.png"; sourceTree = "<group>"; };
+		A821165A1DE4A7CF00FBF580 /* link_red_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_red_line.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_red_line.png"; sourceTree = "<group>"; };
+		A821165B1DE4A7CF00FBF580 /* link_tyrone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_tyrone.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_tyrone.png"; sourceTree = "<group>"; };
+		A821165C1DE4A7CF00FBF580 /* link_purple_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_purple_line.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_purple_line.png"; sourceTree = "<group>"; };
+		A821165D1DE4A7CF00FBF580 /* link_cassville.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_cassville.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_cassville.png"; sourceTree = "<group>"; };
+		A821165E1DE4A7CF00FBF580 /* link_blue_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_blue_line.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_blue_line.png"; sourceTree = "<group>"; };
+		A821165F1DE4A7CF00FBF580 /* link_crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_crown.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_crown.png"; sourceTree = "<group>"; };
+		A82116601DE4A7CF00FBF580 /* link_mountain_heights.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_mountain_heights.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_mountain_heights.png"; sourceTree = "<group>"; };
+		A82116611DE4A7CF00FBF580 /* link_grafton_road.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_grafton_road.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_grafton_road.png"; sourceTree = "<group>"; };
+		A82116621DE4A7CF00FBF580 /* link_pink_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_pink_line.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_pink_line.png"; sourceTree = "<group>"; };
+		A82116631DE4A7CF00FBF580 /* link_grey_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_grey_line.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_grey_line.png"; sourceTree = "<group>"; };
+		A82116641DE4A7CF00FBF580 /* link_west_run.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_west_run.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_west_run.png"; sourceTree = "<group>"; };
+		A82116651DE4A7CF00FBF580 /* link_blue_and_gold_connector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_blue_and_gold_connector.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_blue_and_gold_connector.png"; sourceTree = "<group>"; };
+		A82116661DE4A7CF00FBF580 /* link_beechurst_express.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_beechurst_express.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_beechurst_express.png"; sourceTree = "<group>"; };
+		A82116671DE4A7CF00FBF580 /* link_westover_park_and_ride.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_westover_park_and_ride.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_westover_park_and_ride.png"; sourceTree = "<group>"; };
+		A82116681DE4A7CF00FBF580 /* link_valley_view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_valley_view.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_valley_view.png"; sourceTree = "<group>"; };
+		A82116691DE4A7CF00FBF580 /* link_prt_status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_prt_status.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_prt_status.png"; sourceTree = "<group>"; };
+		A821166A1DE4A7CF00FBF580 /* link_schedule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_schedule.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_schedule.png"; sourceTree = "<group>"; };
+		A821166B1DE4A7CF00FBF580 /* link_prt_station_hours.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_prt_station_hours.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_prt_station_hours.png"; sourceTree = "<group>"; };
+		A821166C1DE4A7CF00FBF580 /* link_station_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_station_map.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_station_map.png"; sourceTree = "<group>"; };
+		A821166D1DE4A7CF00FBF580 /* link_parking_options.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_parking_options.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_parking_options.png"; sourceTree = "<group>"; };
+		A821166E1DE4A7CF00FBF580 /* link_athletic_parking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_athletic_parking.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_athletic_parking.png"; sourceTree = "<group>"; };
+		A821166F1DE4A7CF00FBF580 /* link_parking_maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_parking_maps.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_parking_maps.png"; sourceTree = "<group>"; };
+		A82116701DE4A7CF00FBF580 /* link_permits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_permits.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_permits.png"; sourceTree = "<group>"; };
+		A82116711DE4A7CF00FBF580 /* link_call_parking_management_office.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_call_parking_management_office.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_call_parking_management_office.png"; sourceTree = "<group>"; };
+		A82116721DE4A7CF00FBF580 /* link_call_yellow_cab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_call_yellow_cab.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_call_yellow_cab.png"; sourceTree = "<group>"; };
+		A82116731DE4A7CF00FBF580 /* link_call_motown_taxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_call_motown_taxi.png; path = "../../Images/Link Buttons/Version 2/Parking & Transportation/link_call_motown_taxi.png"; sourceTree = "<group>"; };
+		A82116991DE4A7E400FBF580 /* link_student_tickets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_student_tickets.png; path = "../../Images/Link Buttons/Version 2/Sports & Fitness/link_student_tickets.png"; sourceTree = "<group>"; };
+		A821169A1DE4A7E400FBF580 /* link_wvu_sports.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_wvu_sports.png; path = "../../Images/Link Buttons/Version 2/Sports & Fitness/link_wvu_sports.png"; sourceTree = "<group>"; };
+		A821169B1DE4A7E400FBF580 /* link_schedules.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_schedules.png; path = "../../Images/Link Buttons/Version 2/Sports & Fitness/link_schedules.png"; sourceTree = "<group>"; };
+		A821169C1DE4A7E400FBF580 /* link_rec_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_rec_center.png; path = "../../Images/Link Buttons/Version 2/Sports & Fitness/link_rec_center.png"; sourceTree = "<group>"; };
+		A821169D1DE4A7E400FBF580 /* link_rec_center_hours.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_rec_center_hours.png; path = "../../Images/Link Buttons/Version 2/Sports & Fitness/link_rec_center_hours.png"; sourceTree = "<group>"; };
+		A821169E1DE4A7E400FBF580 /* link_climbing_wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_climbing_wall.png; path = "../../Images/Link Buttons/Version 2/Sports & Fitness/link_climbing_wall.png"; sourceTree = "<group>"; };
+		A821169F1DE4A7E400FBF580 /* link_club_sports.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_club_sports.png; path = "../../Images/Link Buttons/Version 2/Sports & Fitness/link_club_sports.png"; sourceTree = "<group>"; };
+		A82116A01DE4A7E400FBF580 /* link_intramurals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_intramurals.png; path = "../../Images/Link Buttons/Version 2/Sports & Fitness/link_intramurals.png"; sourceTree = "<group>"; };
+		A82116A91DE4A7F000FBF580 /* link_wvu_medicine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_wvu_medicine.png; path = "../../Images/Link Buttons/Version 2/Student Health/link_wvu_medicine.png"; sourceTree = "<group>"; };
+		A82116AA1DE4A7F000FBF580 /* link_students_center_of_health.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_students_center_of_health.png; path = "../../Images/Link Buttons/Version 2/Student Health/link_students_center_of_health.png"; sourceTree = "<group>"; };
+		A82116AB1DE4A7F000FBF580 /* link_call_students_center_of_health.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_call_students_center_of_health.png; path = "../../Images/Link Buttons/Version 2/Student Health/link_call_students_center_of_health.png"; sourceTree = "<group>"; };
+		A82116AC1DE4A7F000FBF580 /* link_ruby_memorial_hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_ruby_memorial_hospital.png; path = "../../Images/Link Buttons/Version 2/Student Health/link_ruby_memorial_hospital.png"; sourceTree = "<group>"; };
+		A82116AD1DE4A7F000FBF580 /* link_call_ruby_memorial_hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_call_ruby_memorial_hospital.png; path = "../../Images/Link Buttons/Version 2/Student Health/link_call_ruby_memorial_hospital.png"; sourceTree = "<group>"; };
+		A82116AE1DE4A7F000FBF580 /* link_health_services_hours.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_health_services_hours.png; path = "../../Images/Link Buttons/Version 2/Student Health/link_health_services_hours.png"; sourceTree = "<group>"; };
+		A82116B51DE4FA3F00FBF580 /* LinksWebview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinksWebview.h; sourceTree = "<group>"; };
+		A82116B61DE4FA3F00FBF580 /* LinksWebview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinksWebview.m; sourceTree = "<group>"; };
+		A82116B81DE62B1900FBF580 /* back_button@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back_button@1x.png"; path = "../../Images/Webview/Current Version (1.0.12)/back_button@1x.png"; sourceTree = "<group>"; };
+		A82116B91DE62B1900FBF580 /* back_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back_button@2x.png"; path = "../../Images/Webview/Current Version (1.0.12)/back_button@2x.png"; sourceTree = "<group>"; };
+		A82116BA1DE62B1900FBF580 /* back_button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back_button@3x.png"; path = "../../Images/Webview/Current Version (1.0.12)/back_button@3x.png"; sourceTree = "<group>"; };
+		A82116BB1DE62B1900FBF580 /* close_menu@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "close_menu@1x.png"; path = "../../Images/Webview/Current Version (1.0.12)/close_menu@1x.png"; sourceTree = "<group>"; };
+		A82116BC1DE62B1900FBF580 /* close_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "close_menu@2x.png"; path = "../../Images/Webview/Current Version (1.0.12)/close_menu@2x.png"; sourceTree = "<group>"; };
+		A82116BD1DE62B1900FBF580 /* close_menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "close_menu@3x.png"; path = "../../Images/Webview/Current Version (1.0.12)/close_menu@3x.png"; sourceTree = "<group>"; };
+		A82116BE1DE62B1900FBF580 /* forward_menu@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "forward_menu@1x.png"; path = "../../Images/Webview/Current Version (1.0.12)/forward_menu@1x.png"; sourceTree = "<group>"; };
+		A82116BF1DE62B1900FBF580 /* forward_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "forward_menu@2x.png"; path = "../../Images/Webview/Current Version (1.0.12)/forward_menu@2x.png"; sourceTree = "<group>"; };
+		A82116C01DE62B1900FBF580 /* forward_menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "forward_menu@3x.png"; path = "../../Images/Webview/Current Version (1.0.12)/forward_menu@3x.png"; sourceTree = "<group>"; };
+		A82116C11DE62B1900FBF580 /* refresh_menu@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "refresh_menu@1x.png"; path = "../../Images/Webview/Current Version (1.0.12)/refresh_menu@1x.png"; sourceTree = "<group>"; };
+		A82116C21DE62B1900FBF580 /* refresh_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "refresh_menu@2x.png"; path = "../../Images/Webview/Current Version (1.0.12)/refresh_menu@2x.png"; sourceTree = "<group>"; };
+		A82116C31DE62B1900FBF580 /* refresh_menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "refresh_menu@3x.png"; path = "../../Images/Webview/Current Version (1.0.12)/refresh_menu@3x.png"; sourceTree = "<group>"; };
+		A859C5E61C30CD84000CF361 /* MyWVU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWVU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A859C5EA1C30CD84000CF361 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A859C5EC1C30CD84000CF361 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A859C5ED1C30CD84000CF361 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A859C5F31C30CD84000CF361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A859C5F61C30CD84000CF361 /* MyWVU.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyWVU.xcdatamodel; sourceTree = "<group>"; };
+		A859C5F81C30CD84000CF361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A859C5FD1C30CD84000CF361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A859C6021C30CD84000CF361 /* MyWVUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWVUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A859C6061C30CD84000CF361 /* MyWVUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWVUTests.m; sourceTree = "<group>"; };
+		A859C6081C30CD84000CF361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A859C60D1C30CD84000CF361 /* MyWVUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWVUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A859C6111C30CD84000CF361 /* MyWVUUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWVUUITests.m; sourceTree = "<group>"; };
+		A859C6131C30CD84000CF361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A859C61F1C318F9F000CF361 /* MainMenuBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MainMenuBackground.png; path = "../../Images/Main Menu/MainMenuBackground.png"; sourceTree = "<group>"; };
+		A859C6211C319112000CF361 /* MyWVULogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MyWVULogo.png; path = "../../Images/Main Menu/MyWVULogo.png"; sourceTree = "<group>"; };
+		A859C6241C319148000CF361 /* MyWVULogoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MyWVULogoButton.png; path = "../../Images/Main Menu/MyWVULogoButton.png"; sourceTree = "<group>"; };
+		A859C6391C375682000CF361 /* Splash Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Splash Background.png"; path = "../../Images/Icon:Splash /Launch Image/Splash Background.png"; sourceTree = "<group>"; };
+		A859C63C1C375759000CF361 /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		A859C63D1C375759000CF361 /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
+		A859C63F1C375A33000CF361 /* Gear Menu Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Gear Menu Button.png"; path = "../../Images/Main Menu/Gear Menu Button.png"; sourceTree = "<group>"; };
+		A859C6411C375B71000CF361 /* Dropdown Menu Button Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Dropdown Menu Button Background.png"; path = "../../Images/Main Menu/Dropdown Menu Button Background.png"; sourceTree = "<group>"; };
+		A859C6451C375E55000CF361 /* CategorySelectorBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CategorySelectorBackground.png; path = "../../Images/Main Menu/CategorySelectorBackground.png"; sourceTree = "<group>"; };
+		A859C6481C375F1E000CF361 /* academic_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = academic_icon.png; sourceTree = "<group>"; };
+		A859C6491C375F1E000CF361 /* campus_dining_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campus_dining_icon.png; sourceTree = "<group>"; };
+		A859C64A1C375F1E000CF361 /* campus_information_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campus_information_icon.png; sourceTree = "<group>"; };
+		A859C64B1C375F1E000CF361 /* campus_news_and_events_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campus_news_and_events_icon.png; sourceTree = "<group>"; };
+		A859C64C1C375F1E000CF361 /* campus_police_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campus_police_icon.png; sourceTree = "<group>"; };
+		A859C64D1C375F1E000CF361 /* greek_life_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greek_life_icon.png; sourceTree = "<group>"; };
+		A859C64E1C375F1E000CF361 /* nightlife_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nightlife_icon.png; sourceTree = "<group>"; };
+		A859C64F1C375F1E000CF361 /* parking_and_transportation_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parking_and_transportation_icon.png; sourceTree = "<group>"; };
+		A859C6501C375F1E000CF361 /* sports_and_fitness_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sports_and_fitness_icon.png; sourceTree = "<group>"; };
+		A859C6511C375F1E000CF361 /* student_health_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = student_health_icon.png; sourceTree = "<group>"; };
+		A859C65C1C37610B000CF361 /* Academic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Academic.plist; path = MyWVU/Academic.plist; sourceTree = "<group>"; };
+		A859C65F1C376135000CF361 /* CampusInformation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CampusInformation.plist; sourceTree = "<group>"; };
+		A859C6611C37614A000CF361 /* CampusDining.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CampusDining.plist; sourceTree = "<group>"; };
+		A859C6631C376171000CF361 /* CampusNewsAndEvents.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CampusNewsAndEvents.plist; sourceTree = "<group>"; };
+		A859C6651C37617E000CF361 /* Greeklife.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Greeklife.plist; sourceTree = "<group>"; };
+		A859C6671C37618B000CF361 /* CampusPolice.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CampusPolice.plist; sourceTree = "<group>"; };
+		A859C6691C3761AB000CF361 /* Nightlife.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Nightlife.plist; sourceTree = "<group>"; };
+		A859C66D1C3761C1000CF361 /* SportsAndFitness.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SportsAndFitness.plist; sourceTree = "<group>"; };
+		A859C66F1C3761CB000CF361 /* StudentHealth.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StudentHealth.plist; sourceTree = "<group>"; };
+		A859C6A21C378B0C000CF361 /* Webview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Webview.h; sourceTree = "<group>"; };
+		A859C6A31C378B0C000CF361 /* Webview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Webview.m; sourceTree = "<group>"; };
+		A859C7771C37A36D000CF361 /* ParkingAndTransportation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ParkingAndTransportation.plist; sourceTree = "<group>"; };
+		A859C7E41C3B0148000CF361 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A859C7E61C3B0226000CF361 /* Information.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Information.h; sourceTree = "<group>"; };
+		A859C7E71C3B0226000CF361 /* Information.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Information.m; sourceTree = "<group>"; };
+		A859C7EA1C3B0760000CF361 /* Feedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feedback.h; sourceTree = "<group>"; };
+		A859C7EB1C3B0760000CF361 /* Feedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feedback.m; sourceTree = "<group>"; };
+		A859C7ED1C3B0BC0000CF361 /* WebviewInstructions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WebviewInstructions.png; path = ../../Images/Settings/WebviewInstructions.png; sourceTree = "<group>"; };
+		A859C7EF1C3B16AA000CF361 /* refresh_howtouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refresh_howtouse.png; path = "../../Images/How-to-Use/refresh_howtouse.png"; sourceTree = "<group>"; };
+		A859C7F11C3B1720000CF361 /* forwardbutton_howtouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forwardbutton_howtouse.png; path = "../../Images/How-to-Use/forwardbutton_howtouse.png"; sourceTree = "<group>"; };
+		A859C7F21C3B1720000CF361 /* close_howtouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close_howtouse.png; path = "../../Images/How-to-Use/close_howtouse.png"; sourceTree = "<group>"; };
+		A859C7F31C3B1720000CF361 /* backbutton_howtouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backbutton_howtouse.png; path = "../../Images/How-to-Use/backbutton_howtouse.png"; sourceTree = "<group>"; };
+		A859C7F71C3B18F8000CF361 /* HowToUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HowToUse.h; sourceTree = "<group>"; };
+		A859C7F81C3B18F8000CF361 /* HowToUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HowToUse.m; sourceTree = "<group>"; };
+		A8C241F11C3B451A00E886DC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A8C241F31C3B64FD00E886DC /* Settings Section Divider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Settings Section Divider.png"; path = "../../Images/Main Menu/Settings Section Divider.png"; sourceTree = "<group>"; };
+		A8C241F71C3CAAB800E886DC /* CategoryViewBackground Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CategoryViewBackground Color.png"; path = "../../Images/Main Menu/CategoryViewBackground Color.png"; sourceTree = "<group>"; };
+		A8C241FE1C3CB85300E886DC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A8C242001C3CB85F00E886DC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A8C242021C3CB86700E886DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8C242041C3CB87800E886DC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		A8C242061C3CB89500E886DC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A8C242081C3CB89C00E886DC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A8C2420A1C3CB8A300E886DC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A8C2420C1C3CB8B400E886DC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A859C5E31C30CD84000CF361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C2420D1C3CB8B400E886DC /* libz.tbd in Frameworks */,
+				A8C2420B1C3CB8A300E886DC /* AVFoundation.framework in Frameworks */,
+				A8C242091C3CB89C00E886DC /* QuartzCore.framework in Frameworks */,
+				A81642B01C3CBB2D004D19B8 /* StartApp.framework in Frameworks */,
+				A8C242071C3CB89500E886DC /* CoreMedia.framework in Frameworks */,
+				A8C242051C3CB87800E886DC /* AdSupport.framework in Frameworks */,
+				A8C241F21C3B451A00E886DC /* StoreKit.framework in Frameworks */,
+				A8C242031C3CB86800E886DC /* CoreGraphics.framework in Frameworks */,
+				A8C242011C3CB85F00E886DC /* SystemConfiguration.framework in Frameworks */,
+				A8C241FF1C3CB85300E886DC /* CoreTelephony.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A859C5FF1C30CD84000CF361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A859C60A1C30CD84000CF361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A806EC8A1D628A310001452F /* Slide Out VC */ = {
+			isa = PBXGroup;
+			children = (
+				A806EC871D628A2C0001452F /* SlideOutVC.h */,
+				A806EC881D628A2C0001452F /* SlideOutVC.m */,
+				A806EC991D6292880001452F /* SlideOut.plist */,
+			);
+			name = "Slide Out VC";
+			sourceTree = "<group>";
+		};
+		A806EC8E1D628B2D0001452F /* Academic VC */ = {
+			isa = PBXGroup;
+			children = (
+				A806EC8B1D628B280001452F /* AcademicVC.h */,
+				A806EC8C1D628B280001452F /* AcademicVC.m */,
+			);
+			name = "Academic VC";
+			sourceTree = "<group>";
+		};
+		A806EC981D628FBD0001452F /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A806EC931D628FB60001452F /* SlideCustomCell.h */,
+				A806EC941D628FB60001452F /* SlideCustomCell.m */,
+				A806EC951D628FB60001452F /* SlideCustomCell.xib */,
+			);
+			name = "Custom Cell";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A806ECA11D62C53E0001452F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A806EC9B1D62C5390001452F /* ic_menu_white_36pt_2x.png */,
+				A806EC9C1D62C5390001452F /* ic_menu_white_36pt_3x.png */,
+				A806EC9D1D62C5390001452F /* ic_menu_white_36pt.png */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		A806ECA21D62C6B70001452F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A806EC8E1D628B2D0001452F /* Academic VC */,
+				A806ECA81D62C80A0001452F /* Campus Dining VC */,
+				A806ECAC1D62C82D0001452F /* Campus Information VC */,
+				A82115801DE394E000FBF580 /* News & Events VC */,
+				A821157F1DE394D900FBF580 /* Campus Police VC */,
+				A821157E1DE394D200FBF580 /* Greeklife VC */,
+				A821157D1DE394CA00FBF580 /* Nightlife VC */,
+				A821157C1DE394C100FBF580 /* Parking & Transportation VC */,
+				A821157B1DE394B700FBF580 /* Sports & Fitness VC */,
+				A821157A1DE394AD00FBF580 /* Student Health VC */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		A806ECA31D62C6C80001452F /* Slideout Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A806EC8A1D628A310001452F /* Slide Out VC */,
+				A806EC981D628FBD0001452F /* Custom Cell */,
+			);
+			name = "Slideout Menu";
+			sourceTree = "<group>";
+		};
+		A806ECA41D62C6D80001452F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A859C5F21C30CD84000CF361 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		A806ECA81D62C80A0001452F /* Campus Dining VC */ = {
+			isa = PBXGroup;
+			children = (
+				A806ECA51D62C8030001452F /* DiningVC.h */,
+				A806ECA61D62C8030001452F /* DiningVC.m */,
+			);
+			name = "Campus Dining VC";
+			sourceTree = "<group>";
+		};
+		A806ECAC1D62C82D0001452F /* Campus Information VC */ = {
+			isa = PBXGroup;
+			children = (
+				A806ECA91D62C8230001452F /* InformationVC.h */,
+				A806ECAA1D62C8230001452F /* InformationVC.m */,
+			);
+			name = "Campus Information VC";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A81642AC1C3CBA31004D19B8 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A859C5EC1C30CD84000CF361 /* AppDelegate.h */,
+				A859C5ED1C30CD84000CF361 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		A821157A1DE394AD00FBF580 /* Student Health VC */ = {
+			isa = PBXGroup;
+			children = (
+				A82115771DE394A900FBF580 /* StudentHealthVC.h */,
+				A82115781DE394A900FBF580 /* StudentHealthVC.m */,
+			);
+			name = "Student Health VC";
+			sourceTree = "<group>";
+		};
+		A821157B1DE394B700FBF580 /* Sports & Fitness VC */ = {
+			isa = PBXGroup;
+			children = (
+				A82115741DE3949E00FBF580 /* SportsFitnessVC.h */,
+				A82115751DE3949E00FBF580 /* SportsFitnessVC.m */,
+			);
+			name = "Sports & Fitness VC";
+			sourceTree = "<group>";
+		};
+		A821157C1DE394C100FBF580 /* Parking & Transportation VC */ = {
+			isa = PBXGroup;
+			children = (
+				A82115711DE3949100FBF580 /* ParkingTransportationVC.h */,
+				A82115721DE3949100FBF580 /* ParkingTransportationVC.m */,
+			);
+			name = "Parking & Transportation VC";
+			sourceTree = "<group>";
+		};
+		A821157D1DE394CA00FBF580 /* Nightlife VC */ = {
+			isa = PBXGroup;
+			children = (
+				A821156E1DE3948100FBF580 /* NightlifeVC.h */,
+				A821156F1DE3948100FBF580 /* NightlifeVC.m */,
+			);
+			name = "Nightlife VC";
+			sourceTree = "<group>";
+		};
+		A821157E1DE394D200FBF580 /* Greeklife VC */ = {
+			isa = PBXGroup;
+			children = (
+				A821156B1DE3947400FBF580 /* GreeklifeVC.h */,
+				A821156C1DE3947400FBF580 /* GreeklifeVC.m */,
+			);
+			name = "Greeklife VC";
+			sourceTree = "<group>";
+		};
+		A821157F1DE394D900FBF580 /* Campus Police VC */ = {
+			isa = PBXGroup;
+			children = (
+				A82115681DE3946600FBF580 /* CampusPoliceVC.h */,
+				A82115691DE3946600FBF580 /* CampusPoliceVC.m */,
+			);
+			name = "Campus Police VC";
+			sourceTree = "<group>";
+		};
+		A82115801DE394E000FBF580 /* News & Events VC */ = {
+			isa = PBXGroup;
+			children = (
+				A82115651DE3944300FBF580 /* NewsEventsVC.h */,
+				A82115661DE3944300FBF580 /* NewsEventsVC.m */,
+			);
+			name = "News & Events VC";
+			sourceTree = "<group>";
+		};
+		A82116D01DE62B2000FBF580 /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				A82116B81DE62B1900FBF580 /* back_button@1x.png */,
+				A82116B91DE62B1900FBF580 /* back_button@2x.png */,
+				A82116BA1DE62B1900FBF580 /* back_button@3x.png */,
+			);
+			name = Back;
+			sourceTree = "<group>";
+		};
+		A82116D11DE62B2600FBF580 /* Close */ = {
+			isa = PBXGroup;
+			children = (
+				A82116BB1DE62B1900FBF580 /* close_menu@1x.png */,
+				A82116BC1DE62B1900FBF580 /* close_menu@2x.png */,
+				A82116BD1DE62B1900FBF580 /* close_menu@3x.png */,
+			);
+			name = Close;
+			sourceTree = "<group>";
+		};
+		A82116D21DE62B2B00FBF580 /* Forward */ = {
+			isa = PBXGroup;
+			children = (
+				A82116BE1DE62B1900FBF580 /* forward_menu@1x.png */,
+				A82116BF1DE62B1900FBF580 /* forward_menu@2x.png */,
+				A82116C01DE62B1900FBF580 /* forward_menu@3x.png */,
+			);
+			name = Forward;
+			sourceTree = "<group>";
+		};
+		A82116D31DE62B3300FBF580 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				A82116C11DE62B1900FBF580 /* refresh_menu@1x.png */,
+				A82116C21DE62B1900FBF580 /* refresh_menu@2x.png */,
+				A82116C31DE62B1900FBF580 /* refresh_menu@3x.png */,
+			);
+			name = Refresh;
+			sourceTree = "<group>";
+		};
+		A82116D41DEA325000FBF580 /* Category Images */ = {
+			isa = PBXGroup;
+			children = (
+				A859C6A11C3764A4000CF361 /* Academic */,
+				A859C6AB1C378D31000CF361 /* Campus Dining */,
+				A859C7031C379D72000CF361 /* Campus Information */,
+				A859C7041C379E3A000CF361 /* Campus News and Events */,
+				A859C7101C379EBA000CF361 /* Campus Police */,
+				A859C71F1C379F4F000CF361 /* Greek Life */,
+				A859C75E1C37A242000CF361 /* Nightlife */,
+				A859C7791C37A3C3000CF361 /* Parking and Transportation */,
+				A859C7C81C37A5E6000CF361 /* Sports and Fitness */,
+				A859C7D91C37A691000CF361 /* Student Health */,
+			);
+			name = "Category Images";
+			sourceTree = "<group>";
+		};
+		A859C5DD1C30CD84000CF361 = {
+			isa = PBXGroup;
+			children = (
+				A859C5E81C30CD84000CF361 /* MyWVU */,
+				A859C6051C30CD84000CF361 /* MyWVUTests */,
+				A859C6101C30CD84000CF361 /* MyWVUUITests */,
+				A859C5E71C30CD84000CF361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A859C5E71C30CD84000CF361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A859C5E61C30CD84000CF361 /* MyWVU.app */,
+				A859C6021C30CD84000CF361 /* MyWVUTests.xctest */,
+				A859C60D1C30CD84000CF361 /* MyWVUUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A859C5E81C30CD84000CF361 /* MyWVU */ = {
+			isa = PBXGroup;
+			children = (
+				A81642AC1C3CBA31004D19B8 /* App Delegate */,
+				A806ECA41D62C6D80001452F /* Storyboard */,
+				A806ECA21D62C6B70001452F /* Categories */,
+				A806ECA31D62C6C80001452F /* Slideout Menu */,
+				A82116B51DE4FA3F00FBF580 /* LinksWebview.h */,
+				A82116B61DE4FA3F00FBF580 /* LinksWebview.m */,
+				A859C6A51C378B98000CF361 /* Main Menu */,
+				A859C6A61C378BA2000CF361 /* Webview */,
+				A859C7E91C3B022D000CF361 /* Settings */,
+				A859C5F81C30CD84000CF361 /* Assets.xcassets */,
+				A859C7E41C3B0148000CF361 /* Launch Screen.storyboard */,
+				A806ECA11D62C53E0001452F /* Menu */,
+				A859C5FD1C30CD84000CF361 /* Info.plist */,
+				A859C5F51C30CD84000CF361 /* MyWVU.xcdatamodeld */,
+				A859C5E91C30CD84000CF361 /* Supporting Files */,
+			);
+			path = MyWVU;
+			sourceTree = "<group>";
+		};
+		A859C5E91C30CD84000CF361 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8C241FD1C3CB83A00E886DC /* Ad Files */,
+				A81642B11C3CD68A004D19B8 /* FirstTimeMessage.png */,
+				A859C7ED1C3B0BC0000CF361 /* WebviewInstructions.png */,
+				A859C7EF1C3B16AA000CF361 /* refresh_howtouse.png */,
+				A859C7F11C3B1720000CF361 /* forwardbutton_howtouse.png */,
+				A859C7F21C3B1720000CF361 /* close_howtouse.png */,
+				A859C7F31C3B1720000CF361 /* backbutton_howtouse.png */,
+				A859C6231C319116000CF361 /* Main Menu */,
+				A859C63B1C375689000CF361 /* Splash/Icon Images */,
+				A859C6471C375F1E000CF361 /* Category Icons */,
+				A82116D41DEA325000FBF580 /* Category Images */,
+				A859C6C61C3792A9000CF361 /* Webview */,
+				A859C65E1C376118000CF361 /* Plist */,
+				A859C5EA1C30CD84000CF361 /* main.m */,
+				A8C2420E1C3CB8BD00E886DC /* Frameworks */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A859C6051C30CD84000CF361 /* MyWVUTests */ = {
+			isa = PBXGroup;
+			children = (
+				A859C6061C30CD84000CF361 /* MyWVUTests.m */,
+				A859C6081C30CD84000CF361 /* Info.plist */,
+			);
+			path = MyWVUTests;
+			sourceTree = "<group>";
+		};
+		A859C6101C30CD84000CF361 /* MyWVUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A859C6111C30CD84000CF361 /* MyWVUUITests.m */,
+				A859C6131C30CD84000CF361 /* Info.plist */,
+			);
+			path = MyWVUUITests;
+			sourceTree = "<group>";
+		};
+		A859C6231C319116000CF361 /* Main Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A8C241F71C3CAAB800E886DC /* CategoryViewBackground Color.png */,
+				A8C241F31C3B64FD00E886DC /* Settings Section Divider.png */,
+				A859C6451C375E55000CF361 /* CategorySelectorBackground.png */,
+				A859C6411C375B71000CF361 /* Dropdown Menu Button Background.png */,
+				A859C63F1C375A33000CF361 /* Gear Menu Button.png */,
+				A859C6241C319148000CF361 /* MyWVULogoButton.png */,
+				A859C61F1C318F9F000CF361 /* MainMenuBackground.png */,
+				A859C6211C319112000CF361 /* MyWVULogo.png */,
+				A806EC841D62899B0001452F /* SWRevealViewController.h */,
+				A806EC851D62899B0001452F /* SWRevealViewController.m */,
+			);
+			name = "Main Menu";
+			sourceTree = "<group>";
+		};
+		A859C63B1C375689000CF361 /* Splash/Icon Images */ = {
+			isa = PBXGroup;
+			children = (
+				A859C6391C375682000CF361 /* Splash Background.png */,
+			);
+			name = "Splash/Icon Images";
+			sourceTree = "<group>";
+		};
+		A859C6471C375F1E000CF361 /* Category Icons */ = {
+			isa = PBXGroup;
+			children = (
+				A859C6481C375F1E000CF361 /* academic_icon.png */,
+				A859C6491C375F1E000CF361 /* campus_dining_icon.png */,
+				A859C64A1C375F1E000CF361 /* campus_information_icon.png */,
+				A859C64B1C375F1E000CF361 /* campus_news_and_events_icon.png */,
+				A859C64C1C375F1E000CF361 /* campus_police_icon.png */,
+				A859C64D1C375F1E000CF361 /* greek_life_icon.png */,
+				A859C64E1C375F1E000CF361 /* nightlife_icon.png */,
+				A859C64F1C375F1E000CF361 /* parking_and_transportation_icon.png */,
+				A859C6501C375F1E000CF361 /* sports_and_fitness_icon.png */,
+				A859C6511C375F1E000CF361 /* student_health_icon.png */,
+			);
+			name = "Category Icons";
+			path = "../../Images/Category Icons";
+			sourceTree = "<group>";
+		};
+		A859C65E1C376118000CF361 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				A859C65C1C37610B000CF361 /* Academic.plist */,
+				A859C6611C37614A000CF361 /* CampusDining.plist */,
+				A859C65F1C376135000CF361 /* CampusInformation.plist */,
+				A859C6631C376171000CF361 /* CampusNewsAndEvents.plist */,
+				A859C6671C37618B000CF361 /* CampusPolice.plist */,
+				A859C6651C37617E000CF361 /* Greeklife.plist */,
+				A859C6691C3761AB000CF361 /* Nightlife.plist */,
+				A859C7771C37A36D000CF361 /* ParkingAndTransportation.plist */,
+				A859C66D1C3761C1000CF361 /* SportsAndFitness.plist */,
+				A859C66F1C3761CB000CF361 /* StudentHealth.plist */,
+			);
+			name = Plist;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A859C6A11C3764A4000CF361 /* Academic */ = {
+			isa = PBXGroup;
+			children = (
+				A821159F1DE4A70300FBF580 /* link_ecampus.png */,
+				A82115A01DE4A70300FBF580 /* link_wvu_gmail.png */,
+				A82115A11DE4A70300FBF580 /* link_mix.png */,
+				A82115A21DE4A70300FBF580 /* link_star.png */,
+				A82115A31DE4A70300FBF580 /* link_sole.png */,
+				A82115A41DE4A70300FBF580 /* link_my_mountaineer_card.png */,
+				A82115A51DE4A70300FBF580 /* link_mountie_bounty.png */,
+				A82115A61DE4A70300FBF580 /* link_schedule_of_courses.png */,
+				A82115A71DE4A70300FBF580 /* link_wvu.png */,
+				A82115A81DE4A70300FBF580 /* link_online_and_extended_campus.png */,
+				A82115A91DE4A70300FBF580 /* link_academic_calendar.png */,
+				A82115AA1DE4A70300FBF580 /* link_computer_lab_hours.png */,
+				A82115AB1DE4A70300FBF580 /* link_downtown_library_hours.png */,
+				A82115AC1DE4A70300FBF580 /* link_evansdale_library_hours.png */,
+				A82115AD1DE4A70300FBF580 /* link_health_sciences_library_hours.png */,
+				A82115AE1DE4A70300FBF580 /* link_law_library_hours.png */,
+				A82115AF1DE4A70300FBF580 /* link_library_databases.png */,
+				A82115B01DE4A70300FBF580 /* link_my_library_account.png */,
+				A82115B11DE4A70300FBF580 /* link_library_computer_availability.png */,
+				A82115B21DE4A70300FBF580 /* link_myprinting.png */,
+				A82115B31DE4A70300FBF580 /* link_academic_advising.png */,
+				A82115B41DE4A70300FBF580 /* link_career_services.png */,
+				A82115B51DE4A70300FBF580 /* link_directory.png */,
+				A82115B61DE4A70300FBF580 /* link_academic_resource_centers_and_tutoring.png */,
+			);
+			name = Academic;
+			sourceTree = "<group>";
+		};
+		A859C6A51C378B98000CF361 /* Main Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A859C63C1C375759000CF361 /* MainMenu.h */,
+				A859C63D1C375759000CF361 /* MainMenu.m */,
+			);
+			name = "Main Menu";
+			sourceTree = "<group>";
+		};
+		A859C6A61C378BA2000CF361 /* Webview */ = {
+			isa = PBXGroup;
+			children = (
+				A859C6A21C378B0C000CF361 /* Webview.h */,
+				A859C6A31C378B0C000CF361 /* Webview.m */,
+			);
+			name = Webview;
+			sourceTree = "<group>";
+		};
+		A859C6AB1C378D31000CF361 /* Campus Dining */ = {
+			isa = PBXGroup;
+			children = (
+				A82115811DE4A6D900FBF580 /* link_account_balance.png */,
+				A82115821DE4A6D900FBF580 /* link_arnolds_diner.png */,
+				A82115831DE4A6D900FBF580 /* link_boreman_bistro.png */,
+				A82115841DE4A6D900FBF580 /* link_cafe_evansdale.png */,
+				A82115851DE4A6D900FBF580 /* link_hatfields.png */,
+				A82115861DE4A6D900FBF580 /* link_summit_cafe.png */,
+				A82115871DE4A6D900FBF580 /* link_terrace_room.png */,
+				A82115881DE4A6D900FBF580 /* link_mountainlair_food_court.png */,
+				A82115891DE4A6D900FBF580 /* link_bits_and_bytes.png */,
+				A821158A1DE4A6D900FBF580 /* link_brew_n_gold_cafe.png */,
+				A821158B1DE4A6D900FBF580 /* link_coffee_shops.png */,
+				A821158C1DE4A6D900FBF580 /* link_the_greenhouse.png */,
+				A821158D1DE4A6D900FBF580 /* link_lyons_den.png */,
+				A821158E1DE4A6D900FBF580 /* link_summit_grab_n_go.png */,
+				A821158F1DE4A6D900FBF580 /* link_evansdale_crossing.png */,
+			);
+			name = "Campus Dining";
+			sourceTree = "<group>";
+		};
+		A859C6C61C3792A9000CF361 /* Webview */ = {
+			isa = PBXGroup;
+			children = (
+				A82116D01DE62B2000FBF580 /* Back */,
+				A82116D11DE62B2600FBF580 /* Close */,
+				A82116D21DE62B2B00FBF580 /* Forward */,
+				A82116D31DE62B3300FBF580 /* Refresh */,
+			);
+			name = Webview;
+			sourceTree = "<group>";
+		};
+		A859C7031C379D72000CF361 /* Campus Information */ = {
+			isa = PBXGroup;
+			children = (
+				A82115CF1DE4A73B00FBF580 /* link_campus_web_site.png */,
+				A82115D01DE4A73B00FBF580 /* link_campus_map.png */,
+				A82115D11DE4A73B00FBF580 /* link_clubs_and_organizations.png */,
+				A82115D21DE4A73B00FBF580 /* link_it_help.png */,
+				A82115D31DE4A73B00FBF580 /* link_it_services.png */,
+				A82115D41DE4A73B00FBF580 /* link_bookstore.png */,
+				A82115D51DE4A73B00FBF580 /* link_on_campus_housing.png */,
+				A82115D61DE4A73B00FBF580 /* link_off_campus_housing.png */,
+				A82115D71DE4A73B00FBF580 /* link_comcast_tv_channel_list.png */,
+				A82115D81DE4A73B00FBF580 /* link_college_cable_tv_channel_list.png */,
+			);
+			name = "Campus Information";
+			sourceTree = "<group>";
+		};
+		A859C7041C379E3A000CF361 /* Campus News and Events */ = {
+			isa = PBXGroup;
+			children = (
+				A82115E31DE4A75C00FBF580 /* link_calendar_of_events.png */,
+				A82115E41DE4A75C00FBF580 /* link_arts_and_entertainment.png */,
+				A82115E51DE4A75C00FBF580 /* link_wvu_today.png */,
+				A82115E61DE4A75C00FBF580 /* link_wvu_news.png */,
+				A82115E71DE4A75C00FBF580 /* link_the_daily_athenaeum.png */,
+				A82115E81DE4A75C00FBF580 /* link_campus_weather.png */,
+			);
+			name = "Campus News and Events";
+			sourceTree = "<group>";
+		};
+		A859C7101C379EBA000CF361 /* Campus Police */ = {
+			isa = PBXGroup;
+			children = (
+				A82115EF1DE4A77100FBF580 /* link_police.png */,
+				A82115F01DE4A77100FBF580 /* link_call_police.png */,
+				A82115F11DE4A77100FBF580 /* link_report_a_threat.png */,
+				A82115F21DE4A77100FBF580 /* link_campus_safety_tips.png */,
+				A82115F31DE4A77100FBF580 /* link_important_wvu_telephone_numbers.png */,
+				A82115F41DE4A77100FBF580 /* link_wvu_alert.png */,
+				A82115F51DE4A77100FBF580 /* link_emergency_info.png */,
+			);
+			name = "Campus Police";
+			sourceTree = "<group>";
+		};
+		A859C71F1C379F4F000CF361 /* Greek Life */ = {
+			isa = PBXGroup;
+			children = (
+				A82115FD1DE4A79400FBF580 /* link_alpha_epsilon_pi.png */,
+				A82115FE1DE4A79400FBF580 /* link_alpha_gamma_rho.png */,
+				A82115FF1DE4A79400FBF580 /* link_alpha_phi_alpha.png */,
+				A82116001DE4A79400FBF580 /* link_alpha_sigma_phi.png */,
+				A82116011DE4A79400FBF580 /* link_delta_tau_delta.png */,
+				A82116021DE4A79400FBF580 /* link_kappa_alpha_order.png */,
+				A82116031DE4A79400FBF580 /* link_kappa_alpha_psi.png */,
+				A82116041DE4A79400FBF580 /* link_omega_psi_phi.png */,
+				A82116051DE4A79400FBF580 /* link_phi_delta_theta.png */,
+				A82116061DE4A79400FBF580 /* link_phi_gamma_delta.png */,
+				A82116071DE4A79400FBF580 /* link_phi_sigma_kappa.png */,
+				A82116081DE4A79400FBF580 /* link_pi_kappa_alpha.png */,
+				A82116091DE4A79400FBF580 /* link_sigma_alpha_epsilon.png */,
+				A821160A1DE4A79400FBF580 /* link_sigma_alpha_mu.png */,
+				A821160B1DE4A79400FBF580 /* link_sigma_chi.png */,
+				A821160C1DE4A79400FBF580 /* link_sigma_nu.png */,
+				A821160D1DE4A79400FBF580 /* link_sigma_phi_epsilon.png */,
+				A821160E1DE4A79400FBF580 /* link_tau_kappa_epsilon.png */,
+				A821160F1DE4A79400FBF580 /* link_theta_chi.png */,
+				A82116101DE4A79400FBF580 /* link_alpha_kappa_alpha.png */,
+				A82116111DE4A79400FBF580 /* link_alpha_omicron_pi.png */,
+				A82116121DE4A79400FBF580 /* link_alpha_phi.png */,
+				A82116131DE4A79400FBF580 /* link_alpha_xi_delta.png */,
+				A82116141DE4A79400FBF580 /* link_chi_omega.png */,
+				A82116151DE4A79400FBF580 /* link_delta_gamma.png */,
+				A82116161DE4A79400FBF580 /* link_delta_sigma_theta.png */,
+				A82116171DE4A79400FBF580 /* link_kappa_kappa_gamma.png */,
+				A82116181DE4A79400FBF580 /* link_pi_beta_phi.png */,
+				A82116191DE4A79400FBF580 /* link_sigma_kappa.png */,
+			);
+			name = "Greek Life";
+			sourceTree = "<group>";
+		};
+		A859C75E1C37A242000CF361 /* Nightlife */ = {
+			isa = PBXGroup;
+			children = (
+				A82116371DE4A7AA00FBF580 /* link_restaurants.png */,
+				A82116381DE4A7AA00FBF580 /* link_bars_and_nightclubs.png */,
+				A82116391DE4A7AA00FBF580 /* link_bar_specials.png */,
+				A821163A1DE4A7AA00FBF580 /* link_adult_recreation.png */,
+				A821163B1DE4A7AA00FBF580 /* link_wvup_all_night.png */,
+				A821163C1DE4A7AA00FBF580 /* link_morgantown_mall.png */,
+				A821163D1DE4A7AA00FBF580 /* link_regal_cinemas_morgantown_twelve.png */,
+				A821163E1DE4A7AA00FBF580 /* link_carmike_cinemas.png */,
+				A821163F1DE4A7AA00FBF580 /* link_mt_pockets_theatre_company.png */,
+				A82116401DE4A7AA00FBF580 /* link_morgantown_diy_outdoors.png */,
+				A82116411DE4A7AA00FBF580 /* link_sunset_beach_marina.png */,
+				A82116421DE4A7AA00FBF580 /* link_suburban_lanes_bowling_center.png */,
+			);
+			name = Nightlife;
+			sourceTree = "<group>";
+		};
+		A859C7791C37A3C3000CF361 /* Parking and Transportation */ = {
+			isa = PBXGroup;
+			children = (
+				A821164F1DE4A7CF00FBF580 /* link_mountain_line_transit_authority.png */,
+				A82116501DE4A7CF00FBF580 /* link_route_list.png */,
+				A82116511DE4A7CF00FBF580 /* link_bus_tracker.png */,
+				A82116521DE4A7CF00FBF580 /* link_wvu_campus_services.png */,
+				A82116531DE4A7CF00FBF580 /* link_wvu_football_shuttle_service.png */,
+				A82116541DE4A7CF00FBF580 /* link_campus_pm.png */,
+				A82116551DE4A7CF00FBF580 /* link_downtown_pm_mall.png */,
+				A82116561DE4A7CF00FBF580 /* link_green_line.png */,
+				A82116571DE4A7CF00FBF580 /* link_orange_line.png */,
+				A82116581DE4A7CF00FBF580 /* link_orange_line_tripper_express.png */,
+				A82116591DE4A7CF00FBF580 /* link_gold_line.png */,
+				A821165A1DE4A7CF00FBF580 /* link_red_line.png */,
+				A821165B1DE4A7CF00FBF580 /* link_tyrone.png */,
+				A821165C1DE4A7CF00FBF580 /* link_purple_line.png */,
+				A821165D1DE4A7CF00FBF580 /* link_cassville.png */,
+				A821165E1DE4A7CF00FBF580 /* link_blue_line.png */,
+				A821165F1DE4A7CF00FBF580 /* link_crown.png */,
+				A82116601DE4A7CF00FBF580 /* link_mountain_heights.png */,
+				A82116611DE4A7CF00FBF580 /* link_grafton_road.png */,
+				A82116621DE4A7CF00FBF580 /* link_pink_line.png */,
+				A82116631DE4A7CF00FBF580 /* link_grey_line.png */,
+				A82116641DE4A7CF00FBF580 /* link_west_run.png */,
+				A82116651DE4A7CF00FBF580 /* link_blue_and_gold_connector.png */,
+				A82116661DE4A7CF00FBF580 /* link_beechurst_express.png */,
+				A82116671DE4A7CF00FBF580 /* link_westover_park_and_ride.png */,
+				A82116681DE4A7CF00FBF580 /* link_valley_view.png */,
+				A82116691DE4A7CF00FBF580 /* link_prt_status.png */,
+				A821166A1DE4A7CF00FBF580 /* link_schedule.png */,
+				A821166B1DE4A7CF00FBF580 /* link_prt_station_hours.png */,
+				A821166C1DE4A7CF00FBF580 /* link_station_map.png */,
+				A821166D1DE4A7CF00FBF580 /* link_parking_options.png */,
+				A821166E1DE4A7CF00FBF580 /* link_athletic_parking.png */,
+				A821166F1DE4A7CF00FBF580 /* link_parking_maps.png */,
+				A82116701DE4A7CF00FBF580 /* link_permits.png */,
+				A82116711DE4A7CF00FBF580 /* link_call_parking_management_office.png */,
+				A82116721DE4A7CF00FBF580 /* link_call_yellow_cab.png */,
+				A82116731DE4A7CF00FBF580 /* link_call_motown_taxi.png */,
+			);
+			name = "Parking and Transportation";
+			sourceTree = "<group>";
+		};
+		A859C7C81C37A5E6000CF361 /* Sports and Fitness */ = {
+			isa = PBXGroup;
+			children = (
+				A82116991DE4A7E400FBF580 /* link_student_tickets.png */,
+				A821169A1DE4A7E400FBF580 /* link_wvu_sports.png */,
+				A821169B1DE4A7E400FBF580 /* link_schedules.png */,
+				A821169C1DE4A7E400FBF580 /* link_rec_center.png */,
+				A821169D1DE4A7E400FBF580 /* link_rec_center_hours.png */,
+				A821169E1DE4A7E400FBF580 /* link_climbing_wall.png */,
+				A821169F1DE4A7E400FBF580 /* link_club_sports.png */,
+				A82116A01DE4A7E400FBF580 /* link_intramurals.png */,
+			);
+			name = "Sports and Fitness";
+			sourceTree = "<group>";
+		};
+		A859C7D91C37A691000CF361 /* Student Health */ = {
+			isa = PBXGroup;
+			children = (
+				A82116A91DE4A7F000FBF580 /* link_wvu_medicine.png */,
+				A82116AA1DE4A7F000FBF580 /* link_students_center_of_health.png */,
+				A82116AB1DE4A7F000FBF580 /* link_call_students_center_of_health.png */,
+				A82116AC1DE4A7F000FBF580 /* link_ruby_memorial_hospital.png */,
+				A82116AD1DE4A7F000FBF580 /* link_call_ruby_memorial_hospital.png */,
+				A82116AE1DE4A7F000FBF580 /* link_health_services_hours.png */,
+			);
+			name = "Student Health";
+			sourceTree = "<group>";
+		};
+		A859C7E91C3B022D000CF361 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A859C7E61C3B0226000CF361 /* Information.h */,
+				A859C7E71C3B0226000CF361 /* Information.m */,
+				A859C7EA1C3B0760000CF361 /* Feedback.h */,
+				A859C7EB1C3B0760000CF361 /* Feedback.m */,
+				A859C7F71C3B18F8000CF361 /* HowToUse.h */,
+				A859C7F81C3B18F8000CF361 /* HowToUse.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		A8C241FD1C3CB83A00E886DC /* Ad Files */ = {
+			isa = PBXGroup;
+			children = (
+				A81642AD1C3CBB2D004D19B8 /* StartApp.bundle */,
+				A81642AE1C3CBB2D004D19B8 /* StartApp.framework */,
+			);
+			name = "Ad Files";
+			sourceTree = "<group>";
+		};
+		A8C2420E1C3CB8BD00E886DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8C2420C1C3CB8B400E886DC /* libz.tbd */,
+				A8C241F11C3B451A00E886DC /* StoreKit.framework */,
+				A8C2420A1C3CB8A300E886DC /* AVFoundation.framework */,
+				A8C242081C3CB89C00E886DC /* QuartzCore.framework */,
+				A8C242061C3CB89500E886DC /* CoreMedia.framework */,
+				A8C242041C3CB87800E886DC /* AdSupport.framework */,
+				A8C242021C3CB86700E886DC /* CoreGraphics.framework */,
+				A8C242001C3CB85F00E886DC /* SystemConfiguration.framework */,
+				A8C241FE1C3CB85300E886DC /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A859C5E51C30CD84000CF361 /* MyWVU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A859C6161C30CD84000CF361 /* Build configuration list for PBXNativeTarget "MyWVU" */;
+			buildPhases = (
+				A859C5E21C30CD84000CF361 /* Sources */,
+				A859C5E31C30CD84000CF361 /* Frameworks */,
+				A859C5E41C30CD84000CF361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyWVU;
+			productName = MyWVU;
+			productReference = A859C5E61C30CD84000CF361 /* MyWVU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A859C6011C30CD84000CF361 /* MyWVUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A859C6191C30CD84000CF361 /* Build configuration list for PBXNativeTarget "MyWVUTests" */;
+			buildPhases = (
+				A859C5FE1C30CD84000CF361 /* Sources */,
+				A859C5FF1C30CD84000CF361 /* Frameworks */,
+				A859C6001C30CD84000CF361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A859C6041C30CD84000CF361 /* PBXTargetDependency */,
+			);
+			name = MyWVUTests;
+			productName = MyWVUTests;
+			productReference = A859C6021C30CD84000CF361 /* MyWVUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A859C60C1C30CD84000CF361 /* MyWVUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A859C61C1C30CD84000CF361 /* Build configuration list for PBXNativeTarget "MyWVUUITests" */;
+			buildPhases = (
+				A859C6091C30CD84000CF361 /* Sources */,
+				A859C60A1C30CD84000CF361 /* Frameworks */,
+				A859C60B1C30CD84000CF361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A859C60F1C30CD84000CF361 /* PBXTargetDependency */,
+			);
+			name = MyWVUUITests;
+			productName = MyWVUUITests;
+			productReference = A859C60D1C30CD84000CF361 /* MyWVUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A859C5DE1C30CD84000CF361 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ApaTapA;
+				TargetAttributes = {
+					A859C5E51C30CD84000CF361 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AAC5AD4Z35;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+					A859C6011C30CD84000CF361 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A859C5E51C30CD84000CF361;
+					};
+					A859C60C1C30CD84000CF361 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A859C5E51C30CD84000CF361;
+					};
+				};
+			};
+			buildConfigurationList = A859C5E11C30CD84000CF361 /* Build configuration list for PBXProject "MyWVU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A859C5DD1C30CD84000CF361;
+			productRefGroup = A859C5E71C30CD84000CF361 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A859C5E51C30CD84000CF361 /* MyWVU */,
+				A859C6011C30CD84000CF361 /* MyWVUTests */,
+				A859C60C1C30CD84000CF361 /* MyWVUUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A859C5E41C30CD84000CF361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82115BB1DE4A70300FBF580 /* link_sole.png in Resources */,
+				A82116811DE4A7CF00FBF580 /* link_purple_line.png in Resources */,
+				A82115C61DE4A70300FBF580 /* link_law_library_hours.png in Resources */,
+				A82116771DE4A7CF00FBF580 /* link_wvu_campus_services.png in Resources */,
+				A82116881DE4A7CF00FBF580 /* link_grey_line.png in Resources */,
+				A82116241DE4A79400FBF580 /* link_phi_sigma_kappa.png in Resources */,
+				A82116301DE4A79400FBF580 /* link_alpha_xi_delta.png in Resources */,
+				A82116221DE4A79400FBF580 /* link_phi_delta_theta.png in Resources */,
+				A82116761DE4A7CF00FBF580 /* link_bus_tracker.png in Resources */,
+				A82116A61DE4A7E400FBF580 /* link_climbing_wall.png in Resources */,
+				A821168C1DE4A7CF00FBF580 /* link_westover_park_and_ride.png in Resources */,
+				A82115E11DE4A73B00FBF580 /* link_comcast_tv_channel_list.png in Resources */,
+				A859C65A1C375F1E000CF361 /* sports_and_fitness_icon.png in Resources */,
+				A859C7EE1C3B0BC0000CF361 /* WebviewInstructions.png in Resources */,
+				A82116971DE4A7CF00FBF580 /* link_call_yellow_cab.png in Resources */,
+				A821162D1DE4A79400FBF580 /* link_alpha_kappa_alpha.png in Resources */,
+				A82115981DE4A6D900FBF580 /* link_bits_and_bytes.png in Resources */,
+				A821168E1DE4A7CF00FBF580 /* link_prt_status.png in Resources */,
+				A82116CD1DE62B1900FBF580 /* refresh_menu@1x.png in Resources */,
+				A821164C1DE4A7AA00FBF580 /* link_morgantown_diy_outdoors.png in Resources */,
+				A82116841DE4A7CF00FBF580 /* link_crown.png in Resources */,
+				A821161A1DE4A79400FBF580 /* link_alpha_epsilon_pi.png in Resources */,
+				A82115C71DE4A70300FBF580 /* link_library_databases.png in Resources */,
+				A82116951DE4A7CF00FBF580 /* link_permits.png in Resources */,
+				A82116751DE4A7CF00FBF580 /* link_route_list.png in Resources */,
+				A82115ED1DE4A75C00FBF580 /* link_the_daily_athenaeum.png in Resources */,
+				A859C6541C375F1E000CF361 /* campus_information_icon.png in Resources */,
+				A82115FB1DE4A77100FBF580 /* link_wvu_alert.png in Resources */,
+				A859C6581C375F1E000CF361 /* nightlife_icon.png in Resources */,
+				A82116B21DE4A7F000FBF580 /* link_ruby_memorial_hospital.png in Resources */,
+				A82115DD1DE4A73B00FBF580 /* link_it_services.png in Resources */,
+				A821167C1DE4A7CF00FBF580 /* link_orange_line.png in Resources */,
+				A806EC971D628FB60001452F /* SlideCustomCell.xib in Resources */,
+				A821162C1DE4A79400FBF580 /* link_theta_chi.png in Resources */,
+				A82115FA1DE4A77100FBF580 /* link_important_wvu_telephone_numbers.png in Resources */,
+				A821161F1DE4A79400FBF580 /* link_kappa_alpha_order.png in Resources */,
+				A82115EB1DE4A75C00FBF580 /* link_wvu_today.png in Resources */,
+				A82115BE1DE4A70300FBF580 /* link_schedule_of_courses.png in Resources */,
+				A859C7F51C3B1720000CF361 /* close_howtouse.png in Resources */,
+				A859C5F91C30CD84000CF361 /* Assets.xcassets in Resources */,
+				A859C6531C375F1E000CF361 /* campus_dining_icon.png in Resources */,
+				A82116471DE4A7AA00FBF580 /* link_wvup_all_night.png in Resources */,
+				A82116B41DE4A7F000FBF580 /* link_health_services_hours.png in Resources */,
+				A82116351DE4A79400FBF580 /* link_pi_beta_phi.png in Resources */,
+				A821162A1DE4A79400FBF580 /* link_sigma_phi_epsilon.png in Resources */,
+				A82116321DE4A79400FBF580 /* link_delta_gamma.png in Resources */,
+				A82115EE1DE4A75C00FBF580 /* link_campus_weather.png in Resources */,
+				A82115BA1DE4A70300FBF580 /* link_star.png in Resources */,
+				A82116A51DE4A7E400FBF580 /* link_rec_center_hours.png in Resources */,
+				A82115DE1DE4A73B00FBF580 /* link_bookstore.png in Resources */,
+				A82115C11DE4A70300FBF580 /* link_academic_calendar.png in Resources */,
+				A806ECA01D62C5390001452F /* ic_menu_white_36pt.png in Resources */,
+				A82116931DE4A7CF00FBF580 /* link_athletic_parking.png in Resources */,
+				A82116901DE4A7CF00FBF580 /* link_prt_station_hours.png in Resources */,
+				A82115971DE4A6D900FBF580 /* link_mountainlair_food_court.png in Resources */,
+				A82115991DE4A6D900FBF580 /* link_brew_n_gold_cafe.png in Resources */,
+				A821164A1DE4A7AA00FBF580 /* link_carmike_cinemas.png in Resources */,
+				A82115E91DE4A75C00FBF580 /* link_calendar_of_events.png in Resources */,
+				A859C6591C375F1E000CF361 /* parking_and_transportation_icon.png in Resources */,
+				A82116361DE4A79400FBF580 /* link_sigma_kappa.png in Resources */,
+				A82115B91DE4A70300FBF580 /* link_mix.png in Resources */,
+				A82116211DE4A79400FBF580 /* link_omega_psi_phi.png in Resources */,
+				A859C6681C37618B000CF361 /* CampusPolice.plist in Resources */,
+				A82116B31DE4A7F000FBF580 /* link_call_ruby_memorial_hospital.png in Resources */,
+				A82115951DE4A6D900FBF580 /* link_summit_cafe.png in Resources */,
+				A859C6561C375F1E000CF361 /* campus_police_icon.png in Resources */,
+				A859C63A1C375682000CF361 /* Splash Background.png in Resources */,
+				A82116CA1DE62B1900FBF580 /* forward_menu@1x.png in Resources */,
+				A82115CD1DE4A70300FBF580 /* link_directory.png in Resources */,
+				A82115921DE4A6D900FBF580 /* link_boreman_bistro.png in Resources */,
+				A821164D1DE4A7AA00FBF580 /* link_sunset_beach_marina.png in Resources */,
+				A821159D1DE4A6D900FBF580 /* link_summit_grab_n_go.png in Resources */,
+				A821162F1DE4A79400FBF580 /* link_alpha_phi.png in Resources */,
+				A82116331DE4A79400FBF580 /* link_delta_sigma_theta.png in Resources */,
+				A82115EA1DE4A75C00FBF580 /* link_arts_and_entertainment.png in Resources */,
+				A821161B1DE4A79400FBF580 /* link_alpha_gamma_rho.png in Resources */,
+				A82116261DE4A79400FBF580 /* link_sigma_alpha_epsilon.png in Resources */,
+				A82115931DE4A6D900FBF580 /* link_cafe_evansdale.png in Resources */,
+				A859C7F01C3B16AA000CF361 /* refresh_howtouse.png in Resources */,
+				A859C6661C37617E000CF361 /* Greeklife.plist in Resources */,
+				A82116C61DE62B1900FBF580 /* back_button@3x.png in Resources */,
+				A82115BD1DE4A70300FBF580 /* link_mountie_bounty.png in Resources */,
+				A82116311DE4A79400FBF580 /* link_chi_omega.png in Resources */,
+				A82115B81DE4A70300FBF580 /* link_wvu_gmail.png in Resources */,
+				A821161D1DE4A79400FBF580 /* link_alpha_sigma_phi.png in Resources */,
+				A806EC9F1D62C5390001452F /* ic_menu_white_36pt_3x.png in Resources */,
+				A82115961DE4A6D900FBF580 /* link_terrace_room.png in Resources */,
+				A82116431DE4A7AA00FBF580 /* link_restaurants.png in Resources */,
+				A81642B21C3CD68A004D19B8 /* FirstTimeMessage.png in Resources */,
+				A82115DA1DE4A73B00FBF580 /* link_campus_map.png in Resources */,
+				A82116291DE4A79400FBF580 /* link_sigma_nu.png in Resources */,
+				A82115E21DE4A73B00FBF580 /* link_college_cable_tv_channel_list.png in Resources */,
+				A82116461DE4A7AA00FBF580 /* link_adult_recreation.png in Resources */,
+				A82115C81DE4A70300FBF580 /* link_my_library_account.png in Resources */,
+				A859C6641C376171000CF361 /* CampusNewsAndEvents.plist in Resources */,
+				A82116CC1DE62B1900FBF580 /* forward_menu@3x.png in Resources */,
+				A82115DF1DE4A73B00FBF580 /* link_on_campus_housing.png in Resources */,
+				A82116A41DE4A7E400FBF580 /* link_rec_center.png in Resources */,
+				A859C7F41C3B1720000CF361 /* forwardbutton_howtouse.png in Resources */,
+				A821167B1DE4A7CF00FBF580 /* link_green_line.png in Resources */,
+				A82115BC1DE4A70300FBF580 /* link_my_mountaineer_card.png in Resources */,
+				A82116891DE4A7CF00FBF580 /* link_west_run.png in Resources */,
+				A82116CE1DE62B1900FBF580 /* refresh_menu@2x.png in Resources */,
+				A82115FC1DE4A77100FBF580 /* link_emergency_info.png in Resources */,
+				A859C7F61C3B1720000CF361 /* backbutton_howtouse.png in Resources */,
+				A82115D91DE4A73B00FBF580 /* link_campus_web_site.png in Resources */,
+				A821159E1DE4A6D900FBF580 /* link_evansdale_crossing.png in Resources */,
+				A82116981DE4A7CF00FBF580 /* link_call_motown_taxi.png in Resources */,
+				A82115C51DE4A70300FBF580 /* link_health_sciences_library_hours.png in Resources */,
+				A82116921DE4A7CF00FBF580 /* link_parking_options.png in Resources */,
+				A82116871DE4A7CF00FBF580 /* link_pink_line.png in Resources */,
+				A82116A31DE4A7E400FBF580 /* link_schedules.png in Resources */,
+				A821168F1DE4A7CF00FBF580 /* link_schedule.png in Resources */,
+				A821162B1DE4A79400FBF580 /* link_tau_kappa_epsilon.png in Resources */,
+				A859C6421C375B71000CF361 /* Dropdown Menu Button Background.png in Resources */,
+				A82115C01DE4A70300FBF580 /* link_online_and_extended_campus.png in Resources */,
+				A82116CF1DE62B1900FBF580 /* refresh_menu@3x.png in Resources */,
+				A8C241F41C3B64FE00E886DC /* Settings Section Divider.png in Resources */,
+				A821164B1DE4A7AA00FBF580 /* link_mt_pockets_theatre_company.png in Resources */,
+				A82116281DE4A79400FBF580 /* link_sigma_chi.png in Resources */,
+				A82116491DE4A7AA00FBF580 /* link_regal_cinemas_morgantown_twelve.png in Resources */,
+				A82115F71DE4A77100FBF580 /* link_call_police.png in Resources */,
+				A821168B1DE4A7CF00FBF580 /* link_beechurst_express.png in Resources */,
+				A82116C81DE62B1900FBF580 /* close_menu@2x.png in Resources */,
+				A82116961DE4A7CF00FBF580 /* link_call_parking_management_office.png in Resources */,
+				A82115CA1DE4A70300FBF580 /* link_myprinting.png in Resources */,
+				A821168D1DE4A7CF00FBF580 /* link_valley_view.png in Resources */,
+				A859C66A1C3761AB000CF361 /* Nightlife.plist in Resources */,
+				A82115901DE4A6D900FBF580 /* link_account_balance.png in Resources */,
+				A82116C71DE62B1900FBF580 /* close_menu@1x.png in Resources */,
+				A82115911DE4A6D900FBF580 /* link_arnolds_diner.png in Resources */,
+				A859C5F41C30CD84000CF361 /* Main.storyboard in Resources */,
+				A82115E01DE4A73B00FBF580 /* link_off_campus_housing.png in Resources */,
+				A82115F91DE4A77100FBF580 /* link_campus_safety_tips.png in Resources */,
+				A821164E1DE4A7AA00FBF580 /* link_suburban_lanes_bowling_center.png in Resources */,
+				A821159A1DE4A6D900FBF580 /* link_coffee_shops.png in Resources */,
+				A82116481DE4A7AA00FBF580 /* link_morgantown_mall.png in Resources */,
+				A859C6401C375A33000CF361 /* Gear Menu Button.png in Resources */,
+				A82116C91DE62B1900FBF580 /* close_menu@3x.png in Resources */,
+				A82116911DE4A7CF00FBF580 /* link_station_map.png in Resources */,
+				A82116A21DE4A7E400FBF580 /* link_wvu_sports.png in Resources */,
+				A82116861DE4A7CF00FBF580 /* link_grafton_road.png in Resources */,
+				A82116251DE4A79400FBF580 /* link_pi_kappa_alpha.png in Resources */,
+				A859C6201C318F9F000CF361 /* MainMenuBackground.png in Resources */,
+				A82115CC1DE4A70300FBF580 /* link_career_services.png in Resources */,
+				A859C6551C375F1E000CF361 /* campus_news_and_events_icon.png in Resources */,
+				A82115DC1DE4A73B00FBF580 /* link_it_help.png in Resources */,
+				A821167E1DE4A7CF00FBF580 /* link_gold_line.png in Resources */,
+				A82116801DE4A7CF00FBF580 /* link_tyrone.png in Resources */,
+				A82115C21DE4A70300FBF580 /* link_computer_lab_hours.png in Resources */,
+				A82116831DE4A7CF00FBF580 /* link_blue_line.png in Resources */,
+				A82115C31DE4A70300FBF580 /* link_downtown_library_hours.png in Resources */,
+				A82115CE1DE4A70300FBF580 /* link_academic_resource_centers_and_tutoring.png in Resources */,
+				A821159B1DE4A6D900FBF580 /* link_the_greenhouse.png in Resources */,
+				A82116741DE4A7CF00FBF580 /* link_mountain_line_transit_authority.png in Resources */,
+				A82116B11DE4A7F000FBF580 /* link_call_students_center_of_health.png in Resources */,
+				A82115B71DE4A70300FBF580 /* link_ecampus.png in Resources */,
+				A82116A71DE4A7E400FBF580 /* link_club_sports.png in Resources */,
+				A82116821DE4A7CF00FBF580 /* link_cassville.png in Resources */,
+				A81642AF1C3CBB2D004D19B8 /* StartApp.bundle in Resources */,
+				A859C7E51C3B0148000CF361 /* Launch Screen.storyboard in Resources */,
+				A821168A1DE4A7CF00FBF580 /* link_blue_and_gold_connector.png in Resources */,
+				A859C65B1C375F1E000CF361 /* student_health_icon.png in Resources */,
+				A82116451DE4A7AA00FBF580 /* link_bar_specials.png in Resources */,
+				A82116C51DE62B1900FBF580 /* back_button@2x.png in Resources */,
+				A806EC9E1D62C5390001452F /* ic_menu_white_36pt_2x.png in Resources */,
+				A82116781DE4A7CF00FBF580 /* link_wvu_football_shuttle_service.png in Resources */,
+				A859C6621C37614A000CF361 /* CampusDining.plist in Resources */,
+				A82116791DE4A7CF00FBF580 /* link_campus_pm.png in Resources */,
+				A859C6571C375F1E000CF361 /* greek_life_icon.png in Resources */,
+				A82116271DE4A79400FBF580 /* link_sigma_alpha_mu.png in Resources */,
+				A821159C1DE4A6D900FBF580 /* link_lyons_den.png in Resources */,
+				A821161E1DE4A79400FBF580 /* link_delta_tau_delta.png in Resources */,
+				A806EC9A1D6292880001452F /* SlideOut.plist in Resources */,
+				A82116851DE4A7CF00FBF580 /* link_mountain_heights.png in Resources */,
+				A82116231DE4A79400FBF580 /* link_phi_gamma_delta.png in Resources */,
+				A821161C1DE4A79400FBF580 /* link_alpha_phi_alpha.png in Resources */,
+				A82115CB1DE4A70300FBF580 /* link_academic_advising.png in Resources */,
+				A859C6221C319112000CF361 /* MyWVULogo.png in Resources */,
+				A82116B01DE4A7F000FBF580 /* link_students_center_of_health.png in Resources */,
+				A82115BF1DE4A70300FBF580 /* link_wvu.png in Resources */,
+				A859C65D1C37610B000CF361 /* Academic.plist in Resources */,
+				A821162E1DE4A79400FBF580 /* link_alpha_omicron_pi.png in Resources */,
+				A82116A81DE4A7E400FBF580 /* link_intramurals.png in Resources */,
+				A821167A1DE4A7CF00FBF580 /* link_downtown_pm_mall.png in Resources */,
+				A8C241F81C3CAAB800E886DC /* CategoryViewBackground Color.png in Resources */,
+				A82116C41DE62B1900FBF580 /* back_button@1x.png in Resources */,
+				A82116941DE4A7CF00FBF580 /* link_parking_maps.png in Resources */,
+				A82116A11DE4A7E400FBF580 /* link_student_tickets.png in Resources */,
+				A82116201DE4A79400FBF580 /* link_kappa_alpha_psi.png in Resources */,
+				A859C66E1C3761C1000CF361 /* SportsAndFitness.plist in Resources */,
+				A82116441DE4A7AA00FBF580 /* link_bars_and_nightclubs.png in Resources */,
+				A82115F81DE4A77100FBF580 /* link_report_a_threat.png in Resources */,
+				A82116CB1DE62B1900FBF580 /* forward_menu@2x.png in Resources */,
+				A821167D1DE4A7CF00FBF580 /* link_orange_line_tripper_express.png in Resources */,
+				A82115C41DE4A70300FBF580 /* link_evansdale_library_hours.png in Resources */,
+				A859C6521C375F1E000CF361 /* academic_icon.png in Resources */,
+				A859C6601C376135000CF361 /* CampusInformation.plist in Resources */,
+				A859C6461C375E55000CF361 /* CategorySelectorBackground.png in Resources */,
+				A82115EC1DE4A75C00FBF580 /* link_wvu_news.png in Resources */,
+				A859C6701C3761CB000CF361 /* StudentHealth.plist in Resources */,
+				A82116AF1DE4A7F000FBF580 /* link_wvu_medicine.png in Resources */,
+				A82115C91DE4A70300FBF580 /* link_library_computer_availability.png in Resources */,
+				A82115941DE4A6D900FBF580 /* link_hatfields.png in Resources */,
+				A82115DB1DE4A73B00FBF580 /* link_clubs_and_organizations.png in Resources */,
+				A859C6251C319148000CF361 /* MyWVULogoButton.png in Resources */,
+				A82116341DE4A79400FBF580 /* link_kappa_kappa_gamma.png in Resources */,
+				A859C7781C37A36D000CF361 /* ParkingAndTransportation.plist in Resources */,
+				A82115F61DE4A77100FBF580 /* link_police.png in Resources */,
+				A821167F1DE4A7CF00FBF580 /* link_red_line.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A859C6001C30CD84000CF361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A859C60B1C30CD84000CF361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A859C5E21C30CD84000CF361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82115761DE3949E00FBF580 /* SportsFitnessVC.m in Sources */,
+				A82115791DE394A900FBF580 /* StudentHealthVC.m in Sources */,
+				A859C63E1C375759000CF361 /* MainMenu.m in Sources */,
+				A82115731DE3949100FBF580 /* ParkingTransportationVC.m in Sources */,
+				A859C7F91C3B18F8000CF361 /* HowToUse.m in Sources */,
+				A859C7EC1C3B0760000CF361 /* Feedback.m in Sources */,
+				A859C5EE1C30CD84000CF361 /* AppDelegate.m in Sources */,
+				A821156D1DE3947400FBF580 /* GreeklifeVC.m in Sources */,
+				A859C7E81C3B0226000CF361 /* Information.m in Sources */,
+				A806ECAB1D62C8230001452F /* InformationVC.m in Sources */,
+				A82115701DE3948100FBF580 /* NightlifeVC.m in Sources */,
+				A859C6A41C378B0C000CF361 /* Webview.m in Sources */,
+				A806EC861D62899B0001452F /* SWRevealViewController.m in Sources */,
+				A82116B71DE4FA3F00FBF580 /* LinksWebview.m in Sources */,
+				A806EC8D1D628B280001452F /* AcademicVC.m in Sources */,
+				A821156A1DE3946600FBF580 /* CampusPoliceVC.m in Sources */,
+				A82115671DE3944300FBF580 /* NewsEventsVC.m in Sources */,
+				A806EC961D628FB60001452F /* SlideCustomCell.m in Sources */,
+				A806ECA71D62C8030001452F /* DiningVC.m in Sources */,
+				A806EC891D628A2C0001452F /* SlideOutVC.m in Sources */,
+				A859C5F71C30CD84000CF361 /* MyWVU.xcdatamodeld in Sources */,
+				A859C5EB1C30CD84000CF361 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A859C5FE1C30CD84000CF361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A859C6071C30CD84000CF361 /* MyWVUTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A859C6091C30CD84000CF361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A859C6121C30CD84000CF361 /* MyWVUUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A859C6041C30CD84000CF361 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A859C5E51C30CD84000CF361 /* MyWVU */;
+			targetProxy = A859C6031C30CD84000CF361 /* PBXContainerItemProxy */;
+		};
+		A859C60F1C30CD84000CF361 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A859C5E51C30CD84000CF361 /* MyWVU */;
+			targetProxy = A859C60E1C30CD84000CF361 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A859C5F21C30CD84000CF361 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A859C5F31C30CD84000CF361 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A859C6141C30CD84000CF361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A859C6151C30CD84000CF361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A859C6171C30CD84000CF361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyWVU",
+				);
+				INFOPLIST_FILE = MyWVU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.thomasdiffendal.MyWVU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A859C6181C30CD84000CF361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyWVU",
+				);
+				INFOPLIST_FILE = MyWVU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.thomasdiffendal.MyWVU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A859C61A1C30CD84000CF361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyWVUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.thomasdiffendal.MyWVUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWVU.app/MyWVU";
+			};
+			name = Debug;
+		};
+		A859C61B1C30CD84000CF361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyWVUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.thomasdiffendal.MyWVUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWVU.app/MyWVU";
+			};
+			name = Release;
+		};
+		A859C61D1C30CD84000CF361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyWVUUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.thomasdiffendal.MyWVUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyWVU;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A859C61E1C30CD84000CF361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyWVUUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.thomasdiffendal.MyWVUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyWVU;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A859C5E11C30CD84000CF361 /* Build configuration list for PBXProject "MyWVU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A859C6141C30CD84000CF361 /* Debug */,
+				A859C6151C30CD84000CF361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A859C6161C30CD84000CF361 /* Build configuration list for PBXNativeTarget "MyWVU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A859C6171C30CD84000CF361 /* Debug */,
+				A859C6181C30CD84000CF361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A859C6191C30CD84000CF361 /* Build configuration list for PBXNativeTarget "MyWVUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A859C61A1C30CD84000CF361 /* Debug */,
+				A859C61B1C30CD84000CF361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A859C61C1C30CD84000CF361 /* Build configuration list for PBXNativeTarget "MyWVUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A859C61D1C30CD84000CF361 /* Debug */,
+				A859C61E1C30CD84000CF361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A859C5F51C30CD84000CF361 /* MyWVU.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A859C5F61C30CD84000CF361 /* MyWVU.xcdatamodel */,
+			);
+			currentVersion = A859C5F61C30CD84000CF361 /* MyWVU.xcdatamodel */;
+			path = MyWVU.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A859C5DE1C30CD84000CF361 /* Project object */;
+}

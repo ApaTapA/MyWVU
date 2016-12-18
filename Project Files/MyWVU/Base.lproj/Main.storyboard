@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="KzV-7G-srF">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Menu-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainMenu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainMenuBackground.png" id="WL5-Pc-3w4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CategorySelectorBackground.png" id="bJ4-Qc-ZWR">
+                                <rect key="frame" x="0.0" y="0.0" width="374" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ng1-Lc-jf5">
+                                <rect key="frame" x="46" y="46" width="283" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Dropdown Menu Button Background.png"/>
+                                <connections>
+                                    <action selector="selectCategory:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tmo-x5-HfF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uMU-Dp-vt4">
+                                <rect key="frame" x="46" y="46" width="283" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Dropdown Menu Button Background.png"/>
+                                <connections>
+                                    <action selector="closeDropDown:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mME-gr-qvn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="West Virginia University" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9Dr-vk-1o0">
+                                <rect key="frame" x="5" y="0.0" width="128" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="11"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="LFp-O8-Vrs">
+                                <rect key="frame" x="329" y="-7" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Gear Menu Button.png"/>
+                                <connections>
+                                    <action selector="openSettings:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3BT-JY-Tt5"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="academic_icon.png" id="cKz-0S-Bc3">
+                                <rect key="frame" x="60" y="50" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Academics" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="T41-ig-bAm">
+                                <rect key="frame" x="105" y="46" width="199" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="ZcW-L6-jrr">
+                                <rect key="frame" x="0.0" y="91" width="375" height="490"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                            <view contentMode="scaleToFill" id="P3W-jo-1C0">
+                                <rect key="frame" x="46" y="84" width="283" height="460"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CategoryViewBackground Color.png" id="jne-PR-At4">
+                                        <rect key="frame" x="0.0" y="0.0" width="283" height="460"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hwy-pX-tOp">
+                                        <rect key="frame" x="59" y="44" width="192" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="16"/>
+                                        <state key="normal" title="Campus Dining">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="categoryCampusDining:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IkY-2b-iJn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ise-jc-vcr">
+                                        <rect key="frame" x="59" y="101" width="209" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="16"/>
+                                        <state key="normal" title="Campus Information">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="categoryCampusInformation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BFh-YA-Y4Y"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TFJ-6t-8T8">
+                                        <rect key="frame" x="59" y="146" width="192" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="16"/>
+                                        <state key="normal" title="Campus News &amp; Events">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="categoryCampusNewsAndEvents:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cT4-2N-i3D"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="b6t-pQ-imZ">
+                                        <rect key="frame" x="59" y="191" width="110" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="16"/>
+                                        <state key="normal" title="Campus Police">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="categoryCampusPolice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qqy-u5-hh4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Qrh-AR-PaO">
+                                        <rect key="frame" x="59" y="281" width="197" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="16"/>
+                                        <state key="normal" title="Nightlife">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="categoryNightlife:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SfX-0g-1uJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YTN-Mq-tGF">
+                                        <rect key="frame" x="59" y="371" width="179" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="16"/>
+                                        <state key="normal" title="Sports &amp; Fitness">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="categorySportsAndFitness:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qOy-j0-v7s"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="academic_icon.png" id="0ZK-B3-xII">
+                                        <rect key="frame" x="14" y="11" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="campus_dining_icon.png" id="ptb-RL-O7G">
+                                        <rect key="frame" x="14" y="56" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="campus_information_icon.png" id="tmt-Ym-heE">
+                                        <rect key="frame" x="14" y="101" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="campus_news_and_events_icon.png" id="DMj-VK-6C1">
+                                        <rect key="frame" x="14" y="146" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="campus_police_icon.png" id="N2i-Gg-B2Y">
+                                        <rect key="frame" x="14" y="191" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greek_life_icon.png" id="0hn-d1-K2R">
+                                        <rect key="frame" x="14" y="235" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nightlife_icon.png" id="1lF-lR-cSD">
+                                        <rect key="frame" x="14" y="280" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="parking_and_transportation_icon.png" id="Ve2-1t-H4F">
+                                        <rect key="frame" x="14" y="325" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sports_and_fitness_icon.png" id="hEp-l8-v4l">
+                                        <rect key="frame" x="14" y="370" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="student_health_icon.png" id="mEW-PR-D98">
+                                        <rect key="frame" x="14" y="415" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NTb-LY-rcb">
+                                        <rect key="frame" x="59" y="236" width="103" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="16"/>
+                                        <state key="normal" title="Greeklife">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="categoryGreeklife:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XVT-rx-7Nj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pUg-xa-835">
+                                        <rect key="frame" x="59" y="412" width="179" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="16"/>
+                                        <state key="normal" title="Student Health">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="categoryStudentHealth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UbB-sI-3Dj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pJV-mA-QLY">
+                                        <rect key="frame" x="59" y="325" width="200" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="16"/>
+                                        <state key="normal" title="Parking &amp; Transportation">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="categoryParkingAndTransportation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xdo-c9-LIU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Toa-lw-YJM">
+                                        <rect key="frame" x="59" y="8" width="208" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="16"/>
+                                        <state key="normal" title="Academics">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="categoryAcademic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VcJ-2q-BNv"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="nzL-DQ-zp5">
+                                <rect key="frame" x="122" y="269" width="130" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" id="hG9-OR-fc0">
+                                        <rect key="frame" x="47" y="64" width="37" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </activityIndicatorView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Purchasing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uNH-CB-3DA">
+                                        <rect key="frame" x="4" y="21" width="122" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="18"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.050980392159999999" green="0.0" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="M01-PX-ICN">
+                                <rect key="frame" x="217" y="28" width="150" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CategoryViewBackground Color.png" id="DcB-Pr-7bK">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Settings Section Divider.png" id="R4b-sz-wMS">
+                                        <rect key="frame" x="2" y="38" width="145" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Settings Section Divider.png" id="NPe-B7-9bN">
+                                        <rect key="frame" x="2" y="80" width="145" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Settings Section Divider.png" id="dIp-6N-IbC">
+                                        <rect key="frame" x="2" y="118" width="145" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Settings Section Divider.png" id="lSb-KB-zsq">
+                                        <rect key="frame" x="2" y="160" width="145" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="u86-21-EO5">
+                                        <rect key="frame" x="5" y="5" width="140" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="17"/>
+                                        <state key="normal" title="Information">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="informationSetting:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iI3-iq-14R"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lTP-6h-KM0">
+                                        <rect key="frame" x="5" y="125" width="140" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="17"/>
+                                        <state key="normal" title="Remove Ads">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="tapsRemoveAds" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vzt-kC-U1z"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fQ8-NU-IA4">
+                                        <rect key="frame" x="5" y="85" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="17"/>
+                                        <state key="normal" title="How to Use">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="howtouseSetting:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lfs-bj-zcG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YEL-aV-LBg">
+                                        <rect key="frame" x="5" y="165" width="139" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="17"/>
+                                        <state key="normal" title="Restore Purchases">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="restore" destination="BYZ-38-t0r" eventType="touchUpInside" id="GRS-hI-QIS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Lze-32-MQA">
+                                        <rect key="frame" x="5" y="44" width="140" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="17"/>
+                                        <state key="normal" title="Feedback">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="feedbackSetting:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4z0-pw-HC4"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Xzb-BC-6kf">
+                                <rect key="frame" x="329" y="-7" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Gear Menu Button.png"/>
+                                <connections>
+                                    <action selector="closeSettings:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mse-Fx-vLb"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MyWVULogoButton.png" id="Mp9-C8-Mxj">
+                                <rect key="frame" x="130" y="5" width="115" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="academicIcon" destination="0ZK-B3-xII" id="q9C-FY-2in"/>
+                        <outlet property="btnAcademic" destination="Toa-lw-YJM" id="Dqg-FH-HIS"/>
+                        <outlet property="btnCampusDining" destination="hwy-pX-tOp" id="h9Y-1O-wlD"/>
+                        <outlet property="btnCampusInformation" destination="Ise-jc-vcr" id="mw2-E5-vap"/>
+                        <outlet property="btnCampusNewsAndEvents" destination="TFJ-6t-8T8" id="RoY-cw-6uG"/>
+                        <outlet property="btnCampusPolice" destination="b6t-pQ-imZ" id="wHj-rp-hwl"/>
+                        <outlet property="btnCloseDropDownMenu" destination="uMU-Dp-vt4" id="s2e-Jl-CAM"/>
+                        <outlet property="btnCloseSettings" destination="Xzb-BC-6kf" id="Xv1-oF-5NW"/>
+                        <outlet property="btnFeedback" destination="Lze-32-MQA" id="sqa-s1-RUq"/>
+                        <outlet property="btnGreekLife" destination="NTb-LY-rcb" id="92c-21-6Pu"/>
+                        <outlet property="btnHowToUse" destination="fQ8-NU-IA4" id="0dj-r8-52t"/>
+                        <outlet property="btnInformation" destination="u86-21-EO5" id="zvf-Kp-4Lr"/>
+                        <outlet property="btnNightlife" destination="Qrh-AR-PaO" id="ItY-Di-ILB"/>
+                        <outlet property="btnParkingAndTransportation" destination="pJV-mA-QLY" id="bS0-3F-pfS"/>
+                        <outlet property="btnRemoveAds" destination="lTP-6h-KM0" id="AfQ-cy-s2O"/>
+                        <outlet property="btnRestorePurchase" destination="YEL-aV-LBg" id="zse-81-Yxv"/>
+                        <outlet property="btnSelectCategory" destination="Ng1-Lc-jf5" id="dKb-aI-puK"/>
+                        <outlet property="btnSettings" destination="LFp-O8-Vrs" id="yTK-5g-KG0"/>
+                        <outlet property="btnSportsAndFitness" destination="YTN-Mq-tGF" id="JLv-vD-Qie"/>
+                        <outlet property="btnStudentHealth" destination="pUg-xa-835" id="MiR-C3-5pv"/>
+                        <outlet property="categoryIcon" destination="cKz-0S-Bc3" id="siH-Mi-EfP"/>
+                        <outlet property="categoryImageView" destination="jne-PR-At4" id="enV-MB-Lrm"/>
+                        <outlet property="categoryLabel" destination="T41-ig-bAm" id="pbp-uN-Tpz"/>
+                        <outlet property="categorySelectorBackground" destination="bJ4-Qc-ZWR" id="iVx-B3-vfh"/>
+                        <outlet property="categoryView" destination="P3W-jo-1C0" id="cHA-3I-oOz"/>
+                        <outlet property="diningIcon" destination="ptb-RL-O7G" id="10K-8N-dwt"/>
+                        <outlet property="divider1" destination="R4b-sz-wMS" id="RJZ-lp-I8I"/>
+                        <outlet property="divider2" destination="NPe-B7-9bN" id="dlT-64-aKe"/>
+                        <outlet property="divider3" destination="dIp-6N-IbC" id="tXg-zx-6XY"/>
+                        <outlet property="divider4" destination="lSb-KB-zsq" id="iRR-HI-jlm"/>
+                        <outlet property="greeklifeIcon" destination="0hn-d1-K2R" id="TRN-JI-iWG"/>
+                        <outlet property="iap" destination="hG9-OR-fc0" id="jJ0-Fr-dgI"/>
+                        <outlet property="iapLoading" destination="nzL-DQ-zp5" id="bNB-5V-Iuk"/>
+                        <outlet property="informationIcon" destination="tmt-Ym-heE" id="AfB-aa-ev5"/>
+                        <outlet property="mainMenuBackground" destination="WL5-Pc-3w4" id="Dui-1o-dtI"/>
+                        <outlet property="mainMenuScroll" destination="ZcW-L6-jrr" id="Mwu-tX-VDz"/>
+                        <outlet property="myWVULogo" destination="Mp9-C8-Mxj" id="XR8-Ph-tuT"/>
+                        <outlet property="newsIcon" destination="DMj-VK-6C1" id="Ju6-hQ-fjC"/>
+                        <outlet property="nightlifeIcon" destination="1lF-lR-cSD" id="Kkc-nv-Cqg"/>
+                        <outlet property="parkingIcon" destination="Ve2-1t-H4F" id="dLj-UZ-A1a"/>
+                        <outlet property="policeIcon" destination="N2i-Gg-B2Y" id="ei6-U7-YUu"/>
+                        <outlet property="schoolLabel" destination="9Dr-vk-1o0" id="UB9-Gw-83X"/>
+                        <outlet property="settingsBackgroundImage" destination="DcB-Pr-7bK" id="gdi-uJ-xw1"/>
+                        <outlet property="settingsView" destination="M01-PX-ICN" id="gtA-XC-IKN"/>
+                        <outlet property="sportsIcon" destination="hEp-l8-v4l" id="QtU-1x-n46"/>
+                        <outlet property="studentHealthIcon" destination="mEW-PR-D98" id="hls-gr-W2O"/>
+                        <segue destination="qlF-Ka-hyG" kind="modal" identifier="openWebView" id="wWQ-30-VMk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.5" y="557.5"/>
+        </scene>
+        <!--Webview-->
+        <scene sceneID="xt3-RK-1Hf">
+            <objects>
+                <viewController id="qlF-Ka-hyG" customClass="Webview" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bgj-Iw-Ech">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CategorySelectorBackground.png" id="s5z-s1-aDg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                            </imageView>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" id="1db-te-xHo">
+                                <rect key="frame" x="0.0" y="44" width="375" height="572"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <toolbar opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translucent="NO" id="0k9-mC-ofr">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <barButtonItem image="close_menu_button_stroke.png" style="plain" id="T9u-oW-PfO">
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="modal" id="3Ox-Af-rnp"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="drL-G7-6sL"/>
+                                    <barButtonItem image="back_button_stroke.png" style="plain" id="d2s-3e-beE">
+                                        <connections>
+                                            <action selector="goBack" destination="1db-te-xHo" id="3wa-cn-DKo"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="jQB-Um-G6u"/>
+                                    <barButtonItem width="40" style="plain" id="Por-zL-yqF">
+                                        <connections>
+                                            <action selector="goHomePage:" destination="qlF-Ka-hyG" id="WH3-kW-fRd"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="u0e-hr-0BV"/>
+                                    <barButtonItem image="forward_menu_stroke.png" style="plain" id="z3n-G0-NKW">
+                                        <connections>
+                                            <action selector="goForward" destination="1db-te-xHo" id="sW8-Zt-Khz"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="w0d-za-nHy"/>
+                                    <barButtonItem image="refresh_menu_button_stroke.png" style="plain" id="8W8-YD-yiH">
+                                        <connections>
+                                            <action selector="reload" destination="1db-te-xHo" id="4cT-5r-IWI"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" red="0.0" green="0.15686274509803921" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </toolbar>
+                            <view contentMode="scaleToFill" id="ibc-wk-Ju5">
+                                <rect key="frame" x="147" y="290" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sNf-Ai-TKU">
+                                        <rect key="frame" x="9" y="40" width="63" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" id="nAj-pR-dbG">
+                                        <rect key="frame" x="22" y="8" width="37" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="color" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.46633429279999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MyWVULogo.png" id="FLU-jh-ImD">
+                                <rect key="frame" x="123" y="-10" width="130" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="nAj-pR-dbG" id="RRA-wa-RAe"/>
+                        <outlet property="activityIndicatorView" destination="ibc-wk-Ju5" id="GvD-X9-2YK"/>
+                        <outlet property="backgroundImage" destination="s5z-s1-aDg" id="B6V-7y-ELy"/>
+                        <outlet property="logoImage" destination="FLU-jh-ImD" id="TZj-px-Wqa"/>
+                        <outlet property="webViewLoadIndicator" destination="nAj-pR-dbG" id="9wY-xm-wQs"/>
+                        <outlet property="webview" destination="1db-te-xHo" id="H7M-Qd-K6Y"/>
+                        <outlet property="webviewToolbar" destination="0k9-mC-ofr" id="dRM-cY-TBU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sHm-1V-Zt6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="426.5" y="557.5"/>
+        </scene>
+        <!--Reveal View Controller-->
+        <scene sceneID="DCI-ex-NRi">
+            <objects>
+                <viewController id="KzV-7G-srF" customClass="SWRevealViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lxa-Mh-fdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="plU-GQ-uA8" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="8SA-M6-sPL"/>
+                        <segue destination="U2O-xZ-NSO" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="SPq-oW-SxZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qE5-hs-R7u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-889.5" y="-4128.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2hR-v1-8Q7">
+            <objects>
+                <navigationController storyboardIdentifier="academic" id="U2O-xZ-NSO" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Srg-zN-STR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ckb-0O-dsj" kind="relationship" relationship="rootViewController" id="unr-5o-yxy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zE3-g9-gKe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="450.5" y="-970.5"/>
+        </scene>
+        <!--Slide OutVC-->
+        <scene sceneID="PCP-59-oex">
+            <objects>
+                <viewController id="plU-GQ-uA8" customClass="SlideOutVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jnj-8T-Nnp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Z4a-4o-mko">
+                                <rect key="frame" x="0.0" y="130" width="375" height="537"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99859994649999995" green="0.72599297760000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="jGb-6H-QKF" customClass="SlideCustomCell">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jGb-6H-QKF" id="r5T-qW-JWq">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="U2O-xZ-NSO" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="l2I-bj-FUF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="oq2-HR-K3O" customClass="SlideCustomCell">
+                                        <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oq2-HR-K3O" id="9fN-yc-2Bw">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="b3A-oW-kCa" customClass="SlideCustomCell">
+                                        <rect key="frame" x="0.0" y="116" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="b3A-oW-kCa" id="wLK-gr-LVW">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="pn7-pv-j2P" customClass="SlideCustomCell">
+                                        <rect key="frame" x="0.0" y="160" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pn7-pv-j2P" id="rYS-tw-xE0">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <view contentMode="scaleToFill" id="ssb-oQ-pjf">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Morgantown" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NoM-8c-5Ba">
+                                        <rect key="frame" x="24" y="96" width="115" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="13"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MyWVULogo.png" id="DLQ-Y2-rtH">
+                                        <rect key="frame" x="11" y="36" width="91" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="West Virginia " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2ER-f2-UB0">
+                                        <rect key="frame" x="24" y="76" width="78" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="13"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.052597206760000001" blue="0.55899195489999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="slideOutTableView" destination="Z4a-4o-mko" id="BFa-9E-JUR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NKd-Nt-sUV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-433.5" y="-4128.5"/>
+        </scene>
+        <!--Academics-->
+        <scene sceneID="3Dm-Xd-WEz">
+            <objects>
+                <viewController id="ckb-0O-dsj" customClass="AcademicVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LYy-yu-g5x">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="GzQ-LR-uTS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25882352941176467" green="0.28235294117647058" blue="0.36862745098039218" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Academics" id="Zyi-1l-KFZ">
+                        <barButtonItem key="leftBarButtonItem" image="ic_menu_white_36pt.png" id="C4h-Gz-ZTb">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="academicScroll" destination="GzQ-LR-uTS" id="DLA-Nn-HvA"/>
+                        <outlet property="openSlideOut" destination="C4h-Gz-ZTb" id="HGV-Dj-BNd"/>
+                        <segue destination="0wn-z4-MxR" kind="custom" identifier="openWebView" customClass="SWRevealViewControllerSeguePushController" id="JNs-ZC-wgB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hH0-Bo-bhT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="875.5" y="-970.5"/>
+        </scene>
+        <!--How To Use-->
+        <scene sceneID="imv-Tg-iI1">
+            <objects>
+                <viewController storyboardIdentifier="howtouse" id="EaO-Sn-smj" customClass="HowToUse" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bkb-he-7vx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainMenuBackground.png" id="ytW-fy-J8x">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="p2H-Cb-x3j">
+                                <rect key="frame" x="10" y="11" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="close_menu_button_stroke.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="EIo-CO-Ia6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Close" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="i41-k0-Iph">
+                                <rect key="frame" x="218" y="512" width="153" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="25"/>
+                                <color key="textColor" red="0.99859994649887085" green="0.72599297761917114" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Back" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MxP-pi-0Zg">
+                                <rect key="frame" x="218" y="209" width="108" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="25"/>
+                                <color key="textColor" red="0.99859994649887085" green="0.72599297761917114" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home Page" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7DY-Kc-aYM">
+                                <rect key="frame" x="218" y="309" width="153" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="25"/>
+                                <color key="textColor" red="0.99859994649887085" green="0.72599297761917114" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forward" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gwp-fL-a75">
+                                <rect key="frame" x="218" y="408" width="153" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="25"/>
+                                <color key="textColor" red="0.99859994649887085" green="0.72599297761917114" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Refresh" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xia-As-qR1">
+                                <rect key="frame" x="218" y="114" width="118" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="25"/>
+                                <color key="textColor" red="0.99859994649887085" green="0.72599297761917114" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="refresh_howtouse.png" id="cl6-kJ-wvv">
+                                <rect key="frame" x="46" y="86" width="105" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backbutton_howtouse.png" id="H3K-LL-Cch">
+                                <rect key="frame" x="46" y="181" width="105" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MyWVULogo.png" id="Ru4-w1-FEH">
+                                <rect key="frame" x="0.0" y="281" width="191" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="forwardbutton_howtouse.png" id="pYK-0m-bfG">
+                                <rect key="frame" x="46" y="380" width="105" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="close_howtouse.png" id="eEF-bb-J8i">
+                                <rect key="frame" x="46" y="484" width="105" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to Use" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EJV-A6-qb2">
+                                <rect key="frame" x="83" y="20" width="208" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="40"/>
+                                <color key="textColor" red="0.99859994649887085" green="0.72599297761917114" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="imgBack" destination="H3K-LL-Cch" id="jpf-cx-0F8"/>
+                        <outlet property="imgClose" destination="eEF-bb-J8i" id="BSn-ja-rzS"/>
+                        <outlet property="imgForward" destination="pYK-0m-bfG" id="mD7-lE-2RX"/>
+                        <outlet property="imgRefresh" destination="cl6-kJ-wvv" id="kKc-rn-FOY"/>
+                        <outlet property="imgWVULogo" destination="Ru4-w1-FEH" id="DEg-Ej-Cub"/>
+                        <outlet property="lblBack" destination="MxP-pi-0Zg" id="Zdh-jK-4xU"/>
+                        <outlet property="lblClose" destination="i41-k0-Iph" id="6Iv-RZ-gMq"/>
+                        <outlet property="lblForward" destination="gwp-fL-a75" id="FfB-vl-TDH"/>
+                        <outlet property="lblHowToUse" destination="EJV-A6-qb2" id="rmE-gQ-2rM"/>
+                        <outlet property="lblRefresh" destination="Xia-As-qR1" id="RXP-EC-nlV"/>
+                        <outlet property="lblWVULogo" destination="7DY-Kc-aYM" id="BwP-iM-Ubv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XFK-OL-qnj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-421.5" y="-243.5"/>
+        </scene>
+        <!--About Us-->
+        <scene sceneID="lS7-Pa-5vi">
+            <objects>
+                <viewController id="ZmQ-RK-CwJ" customClass="Information" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vuW-BA-hTy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainMenuBackground.png" id="U4N-X5-PtX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MYWVU" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RFe-h3-JI1">
+                                <rect key="frame" x="31" y="10.5" width="313" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="34"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Programming" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="D1c-A7-25N">
+                                <rect key="frame" x="105" y="113" width="164" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="24"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thomas Diffendal III" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sqn-Xa-fKn">
+                                <rect key="frame" x="105" y="146" width="164" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scott Hern" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="M3T-dW-bMc">
+                                <rect key="frame" x="105" y="244" width="164" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Graphics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Bd9-OY-YDN">
+                                <rect key="frame" x="105" y="211" width="164" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="24"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tt8-SB-9qK">
+                                <rect key="frame" x="10" y="11" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="close_menu_button_stroke.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disclaimer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vRm-nG-5V1">
+                                <rect key="frame" x="120" y="291" width="135" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="21"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developed by ApaTapA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jFJ-Z0-Bjd">
+                                <rect key="frame" x="97" y="93" width="180" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BiZ-TD-S7N">
+                                <rect key="frame" x="65" y="324" width="244" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">This app is not affiliated with West Virginia University. All credit is to be given to the website administrators and creators. </string>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.0.12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pJD-wD-ra7">
+                                <rect key="frame" x="120" y="548" width="135" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="21"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </view>
+                    <navigationItem key="navigationItem" title="About Us" id="G7O-N9-157"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="btnCloseInformation" destination="tt8-SB-9qK" id="dzv-zO-TYH"/>
+                        <outlet property="lblDevelop" destination="jFJ-Z0-Bjd" id="dRf-WN-Aq0"/>
+                        <outlet property="lblDisclaimer" destination="vRm-nG-5V1" id="L6o-2Y-8aP"/>
+                        <outlet property="lblDisclaimerText" destination="BiZ-TD-S7N" id="Mwc-Ac-iyU"/>
+                        <outlet property="lblGraphics" destination="Bd9-OY-YDN" id="enE-uh-3UE"/>
+                        <outlet property="lblProgram" destination="D1c-A7-25N" id="IBK-CM-vno"/>
+                        <outlet property="lblScott" destination="M3T-dW-bMc" id="Zsp-GO-0CY"/>
+                        <outlet property="lblThomas" destination="sqn-Xa-fKn" id="mUi-Ah-lCp"/>
+                        <outlet property="lblTitle" destination="RFe-h3-JI1" id="7GE-4K-Y1y"/>
+                        <outlet property="lblVersion" destination="pJD-wD-ra7" id="q4S-OX-A7z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oiQ-zN-pHQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8.5" y="-3346.5"/>
+        </scene>
+        <!--Feedback-->
+        <scene sceneID="zIT-OF-kwo">
+            <objects>
+                <viewController storyboardIdentifier="feedback" id="arK-LO-3On" customClass="Feedback" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I74-HL-fEb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainMenuBackground.png" id="7rS-22-15Y">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="inq-ry-lYz">
+                                <rect key="frame" x="62" y="175" width="250" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="15"/>
+                                <state key="normal" title="Share MyWVU">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareMYWVU:" destination="arK-LO-3On" eventType="touchUpInside" id="6e8-lR-3YG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mTh-Gd-FeC">
+                                <rect key="frame" x="62" y="245" width="250" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="15"/>
+                                <state key="normal" title="Rate MyWVU">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="rateMYWVU:" destination="arK-LO-3On" eventType="touchUpInside" id="ioD-YC-XLO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f9H-yx-Irg">
+                                <rect key="frame" x="62" y="315" width="250" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="15"/>
+                                <state key="normal" title="Follow us on Twitter">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="followTwitter:" destination="arK-LO-3On" eventType="touchUpInside" id="IJ1-Kg-epT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GZ4-B5-cbg">
+                                <rect key="frame" x="62" y="385" width="250" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="15"/>
+                                <state key="normal" title="Like us on Facebook">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="likeFacebook:" destination="arK-LO-3On" eventType="touchUpInside" id="nnO-fF-nTr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="m0f-3g-LUQ">
+                                <rect key="frame" x="62" y="455" width="250" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="15"/>
+                                <state key="normal" title="Follow us on Instagram">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="followInstagram:" destination="arK-LO-3On" eventType="touchUpInside" id="yC1-ip-JdV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="d7f-6Q-eaH">
+                                <rect key="frame" x="62" y="525" width="250" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="15"/>
+                                <state key="normal" title="Visit our website">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="openWebsite:" destination="arK-LO-3On" eventType="touchUpInside" id="1xS-dL-hHY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RKd-V3-ddg">
+                                <rect key="frame" x="10" y="10" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="close_menu_button_stroke.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="DqZ-Sl-uYs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Sev-du-LhW">
+                                <rect key="frame" x="62" y="105" width="250" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="15"/>
+                                <state key="normal" title="Suggestions &amp; Comments">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="openEmail:" destination="arK-LO-3On" eventType="touchUpInside" id="Buo-04-fQ6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="z7l-dN-n3b">
+                                <rect key="frame" x="127" y="20" width="121" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </view>
+                    <navigationItem key="navigationItem" title="Feedback" id="u6d-FL-l1V"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="btnComments" destination="Sev-du-LhW" id="z4J-hS-HTN"/>
+                        <outlet property="btnFacebook" destination="GZ4-B5-cbg" id="IHB-kS-1Q5"/>
+                        <outlet property="btnFollow" destination="f9H-yx-Irg" id="r8v-B0-krV"/>
+                        <outlet property="btnInstagram" destination="m0f-3g-LUQ" id="GZz-va-eVU"/>
+                        <outlet property="btnRate" destination="mTh-Gd-FeC" id="LTt-aC-SYK"/>
+                        <outlet property="btnShare" destination="inq-ry-lYz" id="fml-JK-8K8"/>
+                        <outlet property="btnWebsite" destination="d7f-6Q-eaH" id="Zzf-5w-afa"/>
+                        <outlet property="lblFeedback" destination="z7l-dN-n3b" id="rJh-Vn-YV4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SAl-Yd-TPv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8.5" y="-4899.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HeN-r5-fMD">
+            <objects>
+                <navigationController storyboardIdentifier="campusDining" id="ZOg-mH-7Fy" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="q7v-8G-oOa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ktL-Xc-9ih" kind="relationship" relationship="rootViewController" id="13I-ff-f5q"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MKK-Zr-YeZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="450.5" y="-1769.5"/>
+        </scene>
+        <!--Campus Dining-->
+        <scene sceneID="Res-Xz-IXf">
+            <objects>
+                <viewController id="ktL-Xc-9ih" customClass="DiningVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vQo-Dg-Ls1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="lkb-XJ-yD4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25882352939999997" green="0.28235294119999998" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Campus Dining" id="GMj-xI-x7h">
+                        <barButtonItem key="leftBarButtonItem" image="ic_menu_white_36pt.png" id="87h-gS-lgl">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="diningScroll" destination="lkb-XJ-yD4" id="67L-Rl-nUJ"/>
+                        <outlet property="openSlideOut" destination="87h-gS-lgl" id="vPu-7b-SoC"/>
+                        <segue destination="0wn-z4-MxR" kind="custom" identifier="openWebView" customClass="SWRevealViewControllerSeguePushController" id="Qfk-sp-ThR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OS0-1z-kPq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="875.5" y="-1769.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Sdc-SX-x1o">
+            <objects>
+                <navigationController storyboardIdentifier="campusInformation" id="o0Y-U5-V8P" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="exi-89-69l">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ek0-ry-i24" kind="relationship" relationship="rootViewController" id="e0r-4p-oEy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fB8-xb-NQb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="442.5" y="-2551.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="IqD-Np-FsK">
+            <objects>
+                <navigationController storyboardIdentifier="aboutUs" id="ItJ-Y3-vbC" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RRM-7x-ssv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ZmQ-RK-CwJ" kind="relationship" relationship="rootViewController" id="X35-vs-bAQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c3O-yj-kFw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-413.5" y="-3346.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="F7q-gl-zwF">
+            <objects>
+                <navigationController storyboardIdentifier="newsEvents" id="LDm-d0-3Fp" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BSi-RY-i18">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="I2D-N6-xXF" kind="relationship" relationship="rootViewController" id="zBJ-iI-GyD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vyq-nU-0pP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="442.5" y="-3346.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="K2F-9X-xyZ">
+            <objects>
+                <navigationController storyboardIdentifier="campusPolice" id="q7G-Jz-R72" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yYj-P4-AZb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="MKK-Cw-Ba0" kind="relationship" relationship="rootViewController" id="lWd-cc-BhQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xrF-AE-gTq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="442.5" y="-4128.5"/>
+        </scene>
+        <!--Campus Information-->
+        <scene sceneID="FnK-R9-jcj">
+            <objects>
+                <viewController id="ek0-ry-i24" customClass="InformationVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gtj-Wl-J2s">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="whq-FT-1my">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25882352939999997" green="0.28235294119999998" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Campus Information" id="z4b-EM-XZq">
+                        <barButtonItem key="leftBarButtonItem" image="ic_menu_white_36pt.png" id="IRx-y1-lqM">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="informationScroll" destination="whq-FT-1my" id="d2n-Cr-uKL"/>
+                        <outlet property="openSlideOut" destination="IRx-y1-lqM" id="c8k-rv-AVF"/>
+                        <segue destination="0wn-z4-MxR" kind="custom" identifier="openWebView" customClass="SWRevealViewControllerSeguePushController" id="l4M-0q-Xmd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JT4-fS-Xtj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="875.5" y="-2551.5"/>
+        </scene>
+        <!--News & Events-->
+        <scene sceneID="muw-iw-SPe">
+            <objects>
+                <viewController id="I2D-N6-xXF" customClass="NewsEventsVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0L9-DO-Dpf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="8aN-zM-OcA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25882352939999997" green="0.28235294119999998" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="News &amp; Events" id="xMq-0B-Kfy">
+                        <barButtonItem key="leftBarButtonItem" image="ic_menu_white_36pt.png" id="dZA-Kd-Z7D">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="newsScroll" destination="8aN-zM-OcA" id="hZk-xN-mR2"/>
+                        <outlet property="openSlideOut" destination="dZA-Kd-Z7D" id="hFV-Hh-VxN"/>
+                        <segue destination="0wn-z4-MxR" kind="custom" identifier="openWebView" customClass="SWRevealViewControllerSeguePushController" id="NIu-db-acG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="reW-kZ-ejY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="875.5" y="-3346.5"/>
+        </scene>
+        <!--Campus Police-->
+        <scene sceneID="xVl-x3-gBi">
+            <objects>
+                <viewController id="MKK-Cw-Ba0" customClass="CampusPoliceVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QgF-iQ-hVV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="BbB-ya-Izd">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25882352939999997" green="0.28235294119999998" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Campus Police" id="Axz-WK-WVu">
+                        <barButtonItem key="leftBarButtonItem" image="ic_menu_white_36pt.png" id="bpW-Gx-xKr">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="openSlideOut" destination="bpW-Gx-xKr" id="YDL-rP-Pur"/>
+                        <outlet property="policeScroll" destination="BbB-ya-Izd" id="uKn-wu-fbR"/>
+                        <segue destination="0wn-z4-MxR" kind="custom" identifier="openWebView" customClass="SWRevealViewControllerSeguePushController" id="xPk-HY-q2r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pZx-qY-69x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="875.5" y="-4128.5"/>
+        </scene>
+        <!--Links Webview-->
+        <scene sceneID="AcU-hP-uVX">
+            <objects>
+                <viewController id="0wn-z4-MxR" customClass="LinksWebview" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="acI-mM-kj6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="T5k-N1-4zT">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.99859994649999995" green="0.72599297760000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem id="Ses-XE-nNG">
+                                        <leftBarButtonItems>
+                                            <barButtonItem image="close_menu.png" id="8va-kW-EHY">
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <connections>
+                                                    <segue destination="U2O-xZ-NSO" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Vn3-gf-aSl"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem image="back_button.png" id="2XZ-ac-8xz">
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <connections>
+                                                    <action selector="goBack" destination="ynj-3h-7VU" id="myA-gx-occ"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </leftBarButtonItems>
+                                        <rightBarButtonItems>
+                                            <barButtonItem image="refresh_menu.png" id="Djd-hC-zgx">
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <connections>
+                                                    <action selector="reload" destination="ynj-3h-7VU" id="gZ2-9N-Pvd"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem image="forward_menu.png" id="mcK-ca-CTn">
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <connections>
+                                                    <action selector="goForward" destination="ynj-3h-7VU" id="eMw-Hd-Tad"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </rightBarButtonItems>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MyWVULogo.png" id="YeH-OZ-jaW">
+                                <rect key="frame" x="150" y="21" width="74" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sPg-0o-wkS">
+                                <rect key="frame" x="150" y="0.0" width="74" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="goHomePage:" destination="0wn-z4-MxR" eventType="touchUpInside" id="8z3-DR-Hph"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" id="ynj-3h-7VU">
+                                <rect key="frame" x="0.0" y="60" width="375" height="607"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                            <view contentMode="scaleToFill" id="fM2-fx-S4W">
+                                <rect key="frame" x="162" y="339" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" id="Jf1-bS-Lli">
+                                        <rect key="frame" x="7" y="6" width="37" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="color" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.46633429279999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.015686274510000001" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="Jf1-bS-Lli" id="5aX-3p-nbj"/>
+                        <outlet property="btnBack" destination="2XZ-ac-8xz" id="3v3-CA-b6n"/>
+                        <outlet property="btnForward" destination="mcK-ca-CTn" id="SSd-Hm-AA2"/>
+                        <outlet property="logoImage" destination="YeH-OZ-jaW" id="CgL-O7-k14"/>
+                        <outlet property="logoImageButton" destination="sPg-0o-wkS" id="auU-5j-2ov"/>
+                        <outlet property="webview" destination="ynj-3h-7VU" id="M4W-tu-vuP"/>
+                        <outlet property="webviewNavBar" destination="T5k-N1-4zT" id="8Pb-tf-ZfN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BZF-Ig-A38" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1357.5" y="-4128.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="chz-UO-mzD">
+            <objects>
+                <navigationController storyboardIdentifier="feedback" id="sLh-qq-WAX" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XK9-97-vE9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="arK-LO-3On" kind="relationship" relationship="rootViewController" id="31r-06-hZy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="amR-mU-oZe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-433.5" y="-4899.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gcL-P9-dIF">
+            <objects>
+                <navigationController storyboardIdentifier="greeklife" id="htr-Or-a5r" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zF2-kd-mfL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="pCL-yM-oVv" kind="relationship" relationship="rootViewController" id="5de-x6-KNu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="co2-59-twe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="442.5" y="-4864.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="J7I-2A-1xZ">
+            <objects>
+                <navigationController storyboardIdentifier="nightlife" id="yDN-Ph-OzQ" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1te-OO-bp1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Ejv-aR-eK8" kind="relationship" relationship="rootViewController" id="CQD-XE-hz5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XuM-a9-xo9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="442.5" y="-5594.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="e2c-UU-udf">
+            <objects>
+                <navigationController storyboardIdentifier="parkingTransportation" id="B1g-9l-CO4" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vn5-xa-t7Z">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="FeA-Sw-xXV" kind="relationship" relationship="rootViewController" id="0VV-r9-Fgq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="apX-bD-Xg0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="442.5" y="-6330.5"/>
+        </scene>
+        <!--Greeklife-->
+        <scene sceneID="xfg-RR-oQC">
+            <objects>
+                <viewController id="pCL-yM-oVv" customClass="GreeklifeVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="igl-gy-PFS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Gc0-Br-oL1">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25882352939999997" green="0.28235294119999998" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Greeklife" id="BiT-v8-Z0r">
+                        <barButtonItem key="leftBarButtonItem" image="ic_menu_white_36pt.png" id="8L7-3j-byX">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="greeklifeScroll" destination="Gc0-Br-oL1" id="kgN-hI-dAg"/>
+                        <outlet property="openSlideOut" destination="8L7-3j-byX" id="NgE-xc-kAT"/>
+                        <segue destination="0wn-z4-MxR" kind="custom" identifier="openWebView" customClass="SWRevealViewControllerSeguePushController" id="Rkf-0v-muj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E22-Ha-cgO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="875.5" y="-4864.5"/>
+        </scene>
+        <!--Nightlife-->
+        <scene sceneID="4MH-Jn-g98">
+            <objects>
+                <viewController id="Ejv-aR-eK8" customClass="NightlifeVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mKr-0h-gqm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="ZM8-qa-nhC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25882352939999997" green="0.28235294119999998" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Nightlife" id="qA7-7p-bNO">
+                        <barButtonItem key="leftBarButtonItem" image="ic_menu_white_36pt.png" id="Q1o-Sv-7XN">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="nightlifeScroll" destination="ZM8-qa-nhC" id="GTG-Il-wlg"/>
+                        <outlet property="openSlideOut" destination="Q1o-Sv-7XN" id="edE-LB-gJu"/>
+                        <segue destination="0wn-z4-MxR" kind="custom" identifier="openWebView" customClass="SWRevealViewControllerSeguePushController" id="EEr-D7-qPk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ITh-2G-JNB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="875.5" y="-5594.5"/>
+        </scene>
+        <!--Student Health-->
+        <scene sceneID="T3w-aI-AVF">
+            <objects>
+                <viewController id="f93-3j-zdp" customClass="StudentHealthVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QHN-C8-weS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="sVX-SU-ajs">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25882352939999997" green="0.28235294119999998" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Student Health" id="wYm-YM-fV4">
+                        <barButtonItem key="leftBarButtonItem" image="ic_menu_white_36pt.png" id="sNy-Ir-Lfa">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="healthScroll" destination="sVX-SU-ajs" id="TtM-Oq-1gT"/>
+                        <outlet property="openSlideOut" destination="sNy-Ir-Lfa" id="kxf-yH-V5X"/>
+                        <segue destination="0wn-z4-MxR" kind="custom" identifier="openWebView" customClass="SWRevealViewControllerSeguePushController" id="RX7-7G-RfF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ubt-q5-zN4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="875.5" y="-7828.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="OwY-Si-I8Z">
+            <objects>
+                <navigationController storyboardIdentifier="studentHealth" id="MIO-zl-vWH" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Vsv-LD-ODU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="f93-3j-zdp" kind="relationship" relationship="rootViewController" id="dMU-PH-Ix1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dge-cz-Cst" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="442.5" y="-7828.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="iMV-rS-VCR">
+            <objects>
+                <navigationController storyboardIdentifier="sportsFitness" id="w0K-5P-ppN" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GD1-UL-nwC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="SU3-pe-pmC" kind="relationship" relationship="rootViewController" id="OlL-In-DcP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dcx-sd-Dfh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="442.5" y="-7084.5"/>
+        </scene>
+        <!--Sports & Fitness-->
+        <scene sceneID="5bP-Jq-aPZ">
+            <objects>
+                <viewController id="SU3-pe-pmC" customClass="SportsFitnessVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cSp-7i-jUz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="aOp-HE-Z3l">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25882352939999997" green="0.28235294119999998" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Sports &amp; Fitness" id="CwF-av-E0E">
+                        <barButtonItem key="leftBarButtonItem" image="ic_menu_white_36pt.png" id="54y-gH-TjC">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="openSlideOut" destination="54y-gH-TjC" id="PiX-Fb-i1S"/>
+                        <outlet property="sportsScroll" destination="aOp-HE-Z3l" id="Jmn-oW-0zc"/>
+                        <segue destination="0wn-z4-MxR" kind="custom" identifier="openWebView" customClass="SWRevealViewControllerSeguePushController" id="Ne9-76-RTK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AHE-fB-m16" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="875.5" y="-7084.5"/>
+        </scene>
+        <!--Parking & Transportation-->
+        <scene sceneID="eXy-lR-w6T">
+            <objects>
+                <viewController id="FeA-Sw-xXV" customClass="ParkingTransportationVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aP6-Da-TxQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="eNW-aU-Cli">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25882352939999997" green="0.28235294119999998" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Parking &amp; Transportation" id="aKC-yg-MGW">
+                        <barButtonItem key="leftBarButtonItem" image="ic_menu_white_36pt.png" id="GlF-4m-pfH">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="openSlideOut" destination="GlF-4m-pfH" id="Bam-jv-Q9i"/>
+                        <outlet property="parkingScroll" destination="eNW-aU-Cli" id="cIX-2p-jxm"/>
+                        <segue destination="0wn-z4-MxR" kind="custom" identifier="openWebView" customClass="SWRevealViewControllerSeguePushController" id="gTi-GO-0Z3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OKK-P9-wfi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="875.5" y="-6330.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CategorySelectorBackground.png" width="1242" height="149"/>
+        <image name="CategoryViewBackground Color.png" width="1242" height="2208"/>
+        <image name="Dropdown Menu Button Background.png" width="810" height="110"/>
+        <image name="Gear Menu Button.png" width="455" height="455"/>
+        <image name="MainMenuBackground.png" width="1242" height="2208"/>
+        <image name="MyWVULogo.png" width="2500" height="1000"/>
+        <image name="MyWVULogoButton.png" width="1537" height="515"/>
+        <image name="Settings Section Divider.png" width="500" height="5"/>
+        <image name="academic_icon.png" width="215" height="215"/>
+        <image name="back_button.png" width="57" height="57"/>
+        <image name="back_button_stroke.png" width="22" height="22"/>
+        <image name="backbutton_howtouse.png" width="515" height="515"/>
+        <image name="campus_dining_icon.png" width="215" height="215"/>
+        <image name="campus_information_icon.png" width="215" height="215"/>
+        <image name="campus_news_and_events_icon.png" width="215" height="215"/>
+        <image name="campus_police_icon.png" width="215" height="215"/>
+        <image name="close_howtouse.png" width="515" height="515"/>
+        <image name="close_menu.png" width="57" height="57"/>
+        <image name="close_menu_button_stroke.png" width="22" height="22"/>
+        <image name="forward_menu.png" width="57" height="57"/>
+        <image name="forward_menu_stroke.png" width="22" height="22"/>
+        <image name="forwardbutton_howtouse.png" width="515" height="515"/>
+        <image name="greek_life_icon.png" width="215" height="215"/>
+        <image name="ic_menu_white_36pt.png" width="36" height="36"/>
+        <image name="nightlife_icon.png" width="215" height="215"/>
+        <image name="parking_and_transportation_icon.png" width="215" height="215"/>
+        <image name="refresh_howtouse.png" width="515" height="515"/>
+        <image name="refresh_menu.png" width="57" height="57"/>
+        <image name="refresh_menu_button_stroke.png" width="22" height="22"/>
+        <image name="sports_and_fitness_icon.png" width="215" height="215"/>
+        <image name="student_health_icon.png" width="215" height="215"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Vn3-gf-aSl"/>
+        <segue reference="JNs-ZC-wgB"/>
+        <segue reference="DqZ-Sl-uYs"/>
+    </inferredMetricsTieBreakers>
+</document>

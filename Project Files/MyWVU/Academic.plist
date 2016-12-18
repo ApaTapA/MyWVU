@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WVU</key>
+	<array>
+		<string>link_ecampus.png</string>
+		<string>link_wvu_gmail.png</string>
+		<string>link_mix.png</string>
+		<string>link_star.png</string>
+		<string>link_sole.png</string>
+		<string>link_my_mountaineer_card.png</string>
+		<string>link_mountie_bounty.png</string>
+		<string>link_schedule_of_courses.png</string>
+		<string>link_wvu.png</string>
+		<string>link_online_and_extended_campus.png</string>
+		<string>link_academic_calendar.png</string>
+		<string>link_computer_lab_hours.png</string>
+		<string>link_downtown_library_hours.png</string>
+		<string>link_evansdale_library_hours.png</string>
+		<string>link_health_sciences_library_hours.png</string>
+		<string>link_law_library_hours.png</string>
+		<string>link_library_databases.png</string>
+		<string>link_my_library_account.png</string>
+		<string>link_library_computer_availability.png</string>
+		<string>link_myprinting.png</string>
+		<string>link_academic_advising.png</string>
+		<string>link_career_services.png</string>
+		<string>link_directory.png</string>
+		<string>link_academic_resource_centers_and_tutoring.png</string>
+	</array>
+</dict>
+</plist>

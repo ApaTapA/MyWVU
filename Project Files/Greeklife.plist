@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WVU</key>
+	<array>
+		<string>link_title_fraternities.png</string>
+		<string>link_alpha_epsilon_pi.png</string>
+		<string>link_alpha_gamma_rho.png</string>
+		<string>link_alpha_phi_alpha.png</string>
+		<string>link_alpha_sigma_phi.png</string>
+		<string>link_delta_tau_delta.png</string>
+		<string>link_kappa_alpha_order.png</string>
+		<string>link_kappa_alpha_psi.png</string>
+		<string>link_omega_psi_phi.png</string>
+		<string>link_phi_delta_theta.png</string>
+		<string>link_phi_gamma_delta.png</string>
+		<string>link_phi_sigma_kappa.png</string>
+		<string>link_pi_kappa_alpha.png</string>
+		<string>link_sigma_alpha_epsilon.png</string>
+		<string>link_sigma_alpha_mu.png</string>
+		<string>link_sigma_chi.png</string>
+		<string>link_sigma_nu.png</string>
+		<string>link_sigma_phi_epsilon.png</string>
+		<string>link_tau_kappa_epsilon.png</string>
+		<string>link_theta_chi.png</string>
+		<string>link_title_sororities.png</string>
+		<string>link_alpha_kappa_alpha.png</string>
+		<string>link_alpha_omicron_pi.png</string>
+		<string>link_alpha_phi.png</string>
+		<string>link_alpha_xi_delta.png</string>
+		<string>link_chi_omega.png</string>
+		<string>link_delta_gamma.png</string>
+		<string>link_delta_sigma_theta.png</string>
+		<string>link_kappa_kappa_gamma.png</string>
+		<string>link_pi_beta_phi.png</string>
+		<string>link_sigma_kappa.png</string>
+	</array>
+</dict>
+</plist>
